@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Luyện tập với cấu trúc switch-case</title>
+</head>
+<body>
+
+<form>
+    Nhập tháng : <input id="month">
+    <button onclick="tinhsongay();return false;">Tính số ngày</button>
+</form>
+<br/>
+kết quả : <h4 id="ketqua"></h4>
+
+
+
+<script>
+    function tinhsongay() {
+        let songay = parseInt(document.getElementById("month").value);
+        let ketqua = document.getElementById("ketqua");
+
+        switch (songay) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                ketqua.innerText = "tháng này có 31 ngày";
+                break;
+            case 2 :
+                ketqua.innerText = "tháng này có 28,29 ngày";
+                break;
+            default:
+                ketqua.innerText = "tháng này có 30 ngày ";
+        }
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

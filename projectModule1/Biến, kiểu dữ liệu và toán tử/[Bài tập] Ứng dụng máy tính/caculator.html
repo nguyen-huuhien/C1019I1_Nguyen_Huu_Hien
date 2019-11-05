@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+</head>
+<body>
+<h2>Caculator</h2>
+
+<form>
+
+    <input id="inputValue1" type="number"/>
+    <input id="inputValue2" type="number"/>
+    <br/><br/>
+
+    <button onclick="btnAdd();return false;">Addition(+)</button>
+    <button onclick="btnSub();return false;">Subtraction(-)</button>
+    <button onclick="btnMutiplication();return false;">Multiplication(x)</button>
+    <button onclick="btnDivision();return false;">Division(/)</button>
+    <button type="reset">AC</button>
+    <br/><br/>
+
+    Result : <p id="ketqua"></p>
+
+
+</form>
+
+<script>
+
+
+    function btnAdd() {
+        let inputValue1 = document.getElementById("inputValue1");
+        let inputValue2 = document.getElementById("inputValue2");
+        let inputValue11 = parseInt(inputValue1.value);
+        let inputValue22 = parseInt(inputValue2.value);
+        let result;
+        result = inputValue11 + inputValue22;
+        ketqua.innerText = result;
+
+    }
+
+    function btnSub() {
+        let inputValue1 = document.getElementById("inputValue1");
+        let inputValue2 = document.getElementById("inputValue2");
+        let inputValue11 = parseInt(inputValue1.value);
+        let inputValue22 = parseInt(inputValue2.value);
+        let result;
+        result = inputValue11 - inputValue22;
+        ketqua.innerText = result;
+    }
+
+    function btnMutiplication() {
+        let inputValue1 = document.getElementById("inputValue1");
+        let inputValue2 = document.getElementById("inputValue2");
+        let inputValue11 = parseInt(inputValue1.value);
+        let inputValue22 = parseInt(inputValue2.value);
+        let result;
+        result = inputValue11 * inputValue22;
+        ketqua.innerText = result;
+    }
+
+    function btnDivision() {
+        let inputValue1 = document.getElementById("inputValue1");
+        let inputValue2 = document.getElementById("inputValue2");
+        let inputValue11 = parseInt(inputValue1.value);
+        let inputValue22 = parseInt(inputValue2.value);
+        let result;
+        result = inputValue11 / inputValue22;
+        ketqua.innerText = result;
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@
 
     let weight = parseInt(prompt("Nhập chỉ số cân nặng (kg) : ", ''));
     let height = parseInt(prompt("nhập chỉ số chiều cao (cm)  : ", ''));
-    let bmi = weight / (height / 100) ^ 2;
+    let bmi = weight / (height*height);
     alert(bmi);
     if (bmi < 18)
         alert("Underweight");

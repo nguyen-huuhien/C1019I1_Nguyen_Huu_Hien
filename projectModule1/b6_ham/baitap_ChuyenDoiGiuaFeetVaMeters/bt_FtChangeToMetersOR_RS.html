@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+
+<input id="inputValue" placeholder="Input Meters Or Feet Value">
+<p>
+    <button id="mToF" onclick="mToF()">Meters To Feet</button>
+    <button id="fToM" onclick="fToM()">Feet To Meters</button>
+</p>
+<p id="result"></p>
+
+<script>
+
+
+    function mToF() {
+        let inputValue = document.getElementById("inputValue").value;
+        let result = document.getElementById("result");
+        inputValue = parseFloat(inputValue);
+        let ketQua;
+        ketQua = inputValue * 3.279;
+        result.innerText = ketQua + " Feet!";
+    }
+
+    function fToM() {
+        let inputValue = document.getElementById("inputValue").value;
+        let result = document.getElementById("result");
+        inputValue = parseFloat(inputValue);
+        let ketQua;
+        ketQua = inputValue * 0.305;
+        result.innerText = ketQua + " Meters!";
+    }
+
+
+</script>
+
+</body>
+</html>

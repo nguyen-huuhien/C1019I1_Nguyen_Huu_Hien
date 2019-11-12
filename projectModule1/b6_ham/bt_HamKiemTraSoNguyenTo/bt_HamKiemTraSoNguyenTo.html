@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hàm kiểm tra số nguyên tố</title>
+</head>
+<body>
+
+<p>
+    <input id="inputValue" placeholder="nhập vào 1 số" type="number">
+    <button onclick="isPrime();">Kiểm Tra</button>
+</p>
+
+<p id="result"></p>
+
+<script>
+
+    function isPrime() {
+        var inputValue = parseInt(document.getElementById("inputValue").value);
+        var result = document.getElementById("result");
+        for(var i = 2; i < inputValue; i++) {
+            if (inputValue % i == 0) {
+                result.innerText = inputValue + " không phải  là số nguyên tố";
+                return;
+            }
+            result.innerText = inputValue + " là số nguyên tố";
+        }
+
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -10,7 +10,8 @@
     let nameCustomer = "Nguyễn Hữu Hiền ";
     let idCard = "123456789";
     let birthdayCustomer = "30/10/1998";
-    let emailCustomer =" huuhien3099@gmail.com ";
+
+    let emailCustomer = " huuhien3099@gmail.com ";
     let addressCustomer = "Quảng Nam";
     let typeCustomer = "Gold";
     let discount = 60;
@@ -18,7 +19,7 @@
     let typeRoom = "Trip";
     let rentDays = 20;
     let typeSevice = "Room";
-    let totalPays = 500 * rentDays * (1 - discount/100);
+    let totalPays = 500 * rentDays * (1 - discount / 100);
     let choose = prompt(
         "1. Show Information Customer. \n" +
         "2. Edit Information Customer. \n" +
@@ -36,15 +37,14 @@
                 "\nType Customer : " + typeCustomer +
                 "\nDiscount :" + discount +
                 "\nAccomanying :" + numberofAccompanying +
-                "\nType Room :"+ typeRoom +
+                "\nType Room :" + typeRoom +
                 "\nRent days :" + rentDays +
                 "\nType Service :" + typeSevice
-
             );
             break;
         case "2" :
             let chooseEdit = prompt(
-                "Choosse Information Customer you want Edit : \n "+
+                "Choosse Information Customer you want Edit : \n " +
                 "1.Name : " + nameCustomer +
                 "\n2.ID Card : " + idCard +
                 "\n3.Birthday : " + birthdayCustomer +
@@ -53,7 +53,7 @@
                 "\n6.Type Customer : " + typeCustomer +
                 "\n7.Discount :" + discount +
                 "\n8.Accomanying :" + numberofAccompanying +
-                "\n9.Type Room :"+ typeRoom +
+                "\n9.Type Room :" + typeRoom +
                 "\n10.Rent days :" + rentDays +
                 "\n11.Type Service :" + typeSevice
             );
@@ -103,18 +103,98 @@
                 "\nType Customer : " + typeCustomer +
                 "\nDiscount :" + discount +
                 "\nAccomanying :" + numberofAccompanying +
-                "\nType Room :"+ typeRoom +
+                "\nType Room :" + typeRoom +
                 "\nRent days :" + rentDays +
                 "\nType Service :" + typeSevice
-
             );
+
+        case '3':
+            showPayAmount();
+            break;
+
 
     }
 
+    function showPayAmount() {
+        totalPays = getGiaLoaiDichVu() * parseInt(rentDays) * (1 - parseFloat(getGiamGia()) / 100);
+
+    }
+
+    function getGiaLoaiDichVu() {
+        switch (loaiDichVu) {
+            case "Villa" :
+                return 500;
+            case "House" :
+                return 300;
+            case "Room" :
+                return 100;
+        }
+    }
+
+    function getGiamGia() {
+        tinhMucGiaTheoDiaChi();
+        tinhMucGiaTheoThoiGianLuuTru();
+        tinhMucGiaTheoLoaiCustomer();
+        tinhMucGiaTheoTuoiVaDiaChi();
+    }
+
+    function tinhMucGiaTheoDiaChi() {
+        switch (addressCustomer) {
+            case "Đà Nẵng" :
+                discount += 20;
+                break;
+            case "Huế " :
+                discount += 10;
+                break;
+            case "Quảng Nam" :
+                discount += 5;
+                break;
+        }
+    }
+
+    function tinhMucGiaTheoThoiGianLuuTru() {
+        if (rentDays > 7) {
+            discount += 30;
+        } else if (5 <= rentDays && rentDays <= 7) {
+            discount += 20;
+        } else if (2 <= rentDays && rentDays <= 4) {
+            discount += 10;
+        }
+    }
+    function tinhMucGiaTheoLoaiCustomer() {
+        switch (typeCustomer) {
+            case "Diamond":
+                discount += 15;
+                break;
+            case "Platium":
+                discount += 10;
+                break;
+            case "Gold":
+                discount += 5;
+                break;
+            case "Silver":
+                discount += 2;
+                break;
+            case "Member":
+                discount += 0;
+                break;
+        }
+    }
+    function tinhMucGiaTheoTuoiVaDiaChi() {
+        intage = new Date().getFullYear() - new Date(ngaySinh).getFullYear();
+        if (age > 30 && diaChi == "Đà Nẵng") {
+            giamGia += 2;
+        } else if (20 <= age && age <= 30 && addressCustomer == "Đà Nẵng") {
+            giamGia += 1;
+        }
+    }
+
+
+
+
+
 
     // hiển thị thông tin
-
-
 
 
 </script>

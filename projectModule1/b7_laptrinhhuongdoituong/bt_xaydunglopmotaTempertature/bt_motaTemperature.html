@@ -6,5 +6,34 @@
 </head>
 <body>
 
+<script>
+
+
+    let Temperature = function (doC) {
+        this.doC = doC;
+
+
+        this.setdoC = function (doC) {
+            this.doC = doC;
+        };
+        this.getdoC = function () {
+            return this.doC;
+        };
+        this.getdoF = function () {
+            return this.doF = doF = (this.doC * 1.8) + 32;
+        };
+        this.getdoK = function () {
+            return this.doK = doK = this.doC + 273.15;
+        };
+
+    };
+
+    let docc = new Temperature(25);
+    alert("Độ k : "+ docc.getdoK());
+    alert("Độ f : "+docc.getdoF());
+
+
+</script>
+
 </body>
 </html>

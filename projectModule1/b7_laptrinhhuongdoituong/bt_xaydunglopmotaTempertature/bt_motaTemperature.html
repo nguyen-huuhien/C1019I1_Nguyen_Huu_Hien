@@ -5,14 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-
+<input id="inputDoC" placeholder="Nhập độ c" >
+<button onclick="changeDo()">Change</button>
+<p id="ketQua"></p>
 <script>
 
 
     let Temperature = function (doC) {
+        doC = document.getElementById("inputDoC").value;
         this.doC = doC;
-
-
         this.setdoC = function (doC) {
             this.doC = doC;
         };
@@ -23,14 +24,17 @@
             return this.doF = doF = (this.doC * 1.8) + 32;
         };
         this.getdoK = function () {
-            return this.doK = doK = this.doC + 273.15;
+            return this.doK = parseInt(this.doC) + 273.15;
         };
-
     };
 
-    let docc = new Temperature(25);
-    alert("Độ k : "+ docc.getdoK());
-    alert("Độ f : "+docc.getdoF());
+    let changeDo = function () {
+        doC = document.getElementById("inputDoC").value;
+        let change = new Temperature(doC);
+        alert("do f = "+ change.getdoF());
+        alert("do k = "+ change.getdoK());
+    }
+
 
 
 </script>

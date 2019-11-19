@@ -9,6 +9,7 @@ var Battery = function () {
         if (this.energy > 0) {
             this.energy--;
         }
+        return this.energy;
     }
 
 };

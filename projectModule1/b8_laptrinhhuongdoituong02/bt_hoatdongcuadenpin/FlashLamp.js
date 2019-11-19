@@ -5,6 +5,11 @@ var FlashLamp = function () {
     this.getBatteryInfo = function () {
         return this.battery.getEnergy();
     };
+    this.getBattery = function () {
+        return this.battery.decreaseEnergy();
+    };
+
+
     this.light = function () {
         if (this.status) {
             alert("lighting");
@@ -15,7 +20,7 @@ var FlashLamp = function () {
 
     this.turnOn = function () {
         this.status = true ;
-        this.battery.setEnergy(this.getBatteryInfo() - 1);
+        this.battery.setEnergy(this.getBatteryInfo());
 
     };
     this.turnOff = function () {

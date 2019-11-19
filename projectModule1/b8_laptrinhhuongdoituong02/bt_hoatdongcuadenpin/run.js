@@ -10,7 +10,7 @@ flashlamp.light();
 document.write("Turn on<br/>");
 flashlamp.turnOn();
 flashlamp.light();
-document.write("Battery info " + flashlamp.getBatteryInfo() + "<br/>");
+document.write("Battery info " + flashlamp.getBattery() + "<br/>");
 
 document.write("Turn Off<br/>");
 flashlamp.turnOff();
@@ -19,5 +19,5 @@ flashlamp.light();
 document.write("Turn on<br/>");
 flashlamp.turnOn();
 flashlamp.light();
-document.write("Battery info " + flashlamp.getBatteryInfo() + "<br/>");
+document.write("Battery info " + flashlamp.getBattery() + "<br/>");
 

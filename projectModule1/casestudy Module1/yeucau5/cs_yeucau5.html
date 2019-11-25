@@ -7,7 +7,8 @@
 <body>
 
 <script>
-    var arrListcustomer = [];
+    let arrListCustomers = [];
+
     function displayMainMenu() {
         var choose = prompt("1.Add New Customer. \n" +
             "2.Display Information Customer. \n" +
@@ -22,7 +23,7 @@
                 displayCustomers();
                 break;
             case "3" :
-                editInfomationCusomers();
+                editCustomer();
                 break;
             case "4" :
                 deleteCustomers();
@@ -34,13 +35,132 @@
         
     }
     function addNewCustomer() {
-        arrListcustomer.push(customerIn)
+        var customer = [];
+        var ten = customer.push(prompt("0. Nhap vao ten"));
+        var cmnd = customer.push(prompt("1. Nhap vao cmnd"));
+        var ngaySinh = customer.push(prompt("2. Nhap vao ngay sinh"));
+        var email = customer.push(prompt("3. Nhap vao email"));
+        var diaChi = customer.push(prompt("4. Nhap vao dia chi"));
+        var loaiCustomer = customer.push(prompt("5. Nhap vao loai customer(Diamond, Platinum, Gold, Silver, Member)"));
+        var giamGia = customer.push(prompt("6. Nhap vao giam gia"));
+        var soLuongDiKem = customer.push(prompt("7. Nhap vao so luong di kem"));
+        var soNgayThue = customer.push(prompt("8. Nhap vao so ngay thue"));
+        var loaiDichVu = customer.push(prompt("9. Nhap vao loai dich vu(Villa, House, Room)"));
+        var loaiPhongThue = customer.push(prompt("10. Nhap vao loai phong thue(Vip, Business,  Normal)."));
+
+        arrListCustomers.push(customer);
+
+        displayMainMenu();
+
+    }
+    function displayCustomers() {
+        choose = prompt("Chọn khách hàng cần hiển thị :\n" + getCustomInforCustomer()+(arrListCustomers.length)+". Back");
+        processChooseCustomer(choose);
+        displayMainMenu();
+
+    }
+    function getCustomInforCustomer() {
+        var result = "";
+        for (var i = 0; i < arrListCustomers.length; i++) {
+            result += i+" : Tên " + arrListCustomers[i][0] + " -Số CMND :" + arrListCustomers[i][1] + "\n"
+                + "================= \n";
+        }
+        return result;
+    }
+    function processChooseCustomer() {
+        switch (choose) {
+            case (arrListCustomers.length) + "":
+                displayMainMenu();
+                break;
+            default:
+                displayInfomationCustomer(choose);
+        }
+    }
+    function displayInfomationCustomer(index) {
+        alert(getCustomerInfor(index));
+    }
+    function getCustomerInfor(index) {
+        return "0. Tên " + arrListCustomers[index][0] + "\n"
+            + "1. CMND " + arrListCustomers[index][1] + "\n"
+            + "2. ngaySinh " + arrListCustomers[index][2] + "\n"
+            + "3. email " + arrListCustomers[index][3] + "\n"
+            + "4. diaChi " + arrListCustomers[index][4] + "\n"
+            + "5. loaiCustomer " + arrListCustomers[index][5] + "\n"
+            + "6. giamGia " + arrListCustomers[index][6] + "\n"
+            + "7. soLuongDiKem " + arrListCustomers[index][7] + "\n"
+            + "8. soNgayThue " + arrListCustomers[index][8] + "\n"
+            + "9. loaiDichVu " + arrListCustomers[index][9] + "\n"
+            + "10. loaiPhongThue " + arrListCustomers[index][10] + "\n"
+            + "============== \n"  ;
+    }
+    function editCustomer() {
+        choose = prompt("Chọn khách hàng cần edit : \n"+ getCustomInforCustomer() + (arrListCustomers.length) + ". Back");
+        processEditChoosedCustomer();
+        displayMainMenu();
+    }
+    function processEditChoosedCustomer() {
+        switch (choose) {
+            case (arrListCustomers.length) + "":
+                displayMainMenu();
+                break;
+            default:
+                displayEditPropertyCustomer(choose);
+        }
+    }
+    function displayEditPropertyCustomer(index) {
+        choose = prompt(" Nhập mục cần chỉnh sửa : \n " + getCustomerInfor(index) + ((arrListCustomers[index]).length) + ". Back");
+        processEditPropertyCustomer(index);
+    }
+    function processEditPropertyCustomer(index) {
+        switch (choose) {
+            case ((arrListCustomers[index]).length)  + "":
+                displayMainMenu();
+                break;
+            default:
+                arrListCustomers[index][parseInt(choose)] = prompt("Nhập nội dung muốn thay đổi : ");
+                displayEditPropertyCustomer(index);
+        }
+    }
+    function deleteCustomers() {
+        choose = prompt("Chọn khách hàng cần xóa : \n" + getCustomInforCustomer() + (arrListCustomers.length) + ". Back");
+        processDeleteChooseCustomer();
+        displayMainMenu();
+    }
+    function processDeleteChooseCustomer() {
+        switch (choose) {
+            case (arrListCustomers.length) + "":
+                displayMainMenu();
+                break;
+            default:
+                confirmDeleteCustomer(choose);
+        }
+    }
+    function confirmDeleteCustomer(index) {
+        choose = prompt(" Bạn có muốn xóa khách hàng có CMND (" + arrListCustomers[index][1]  + ") này chứ : \n"
+            + "1. Có \n"
+            + "2. Không \n");
+        processDeleteCustomer(index);
+    }
+    function processDeleteCustomer(index) {
+        switch (choose) {
+            case "1":
+                arrListCustomers.splice(index, 1);
+                displayMainMenu();
+                break;
+            case "2":
+                displayMainMenu();
+        }
     }
 
 
 
 
-    displayMainMenu();
+
+
+
+
+
+        displayMainMenu();
 </script>
 
 </body>

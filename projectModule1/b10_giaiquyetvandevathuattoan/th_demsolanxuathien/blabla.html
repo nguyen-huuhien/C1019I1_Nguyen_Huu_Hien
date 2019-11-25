@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function binarySearch(arraySearch, i) {
+        var mid = Math.floor(arraySearch.length / 2);
+        console.log(arraySearch[mid], i);
+
+        if (arraySearch[mid] === i) {
+            console.log('match', arraySearch[mid], i);
+            //return arr[mid];
+            alert(mid);
+            return mid;
+        } else if (arraySearch[mid] < i && arraySearch.length > 1) {
+            console.log('mid lower', arraySearch[mid], i);
+            binarySearch(arraySearch.splice(mid, Number.MAX_VALUE), i);
+        } else if (arraySearch[mid] > i && arraySearch.length > 1) {
+            console.log('mid higher', arraySearch[mid], i);
+            binarySearch(arraySearch.splice(0, mid), i);
+        } else {
+            console.log('not here', i);
+            return -1;
+        }
+
+    }
+
+    var position;
+
+    function count(arr, data) {
+        var count = 0;
+        position = binarySearch(arr, data);
+        alert(position);
+        if (position > -1) {
+            ++count;
+            for (var i = position - 1; i > 0; --i) {
+                if (arr[i] == data) {
+                    ++count;
+                } else {
+                    break;
+                }
+            }
+
+            for (var i = position + 1; i < arr.length; ++i) {
+                if (arr[i] == data) {
+                    ++count;
+                } else {
+                    break;
+                }
+            }
+        } //end if
+        return count;
+    }
+
+    var nums = [];
+    for (var i = 0; i < 100; ++i) {
+        nums[i] = Math.floor((Math.random() * 100) + 1);
+    }
+    console.log("AAAAAAAA");
+    console.log(nums);
+
+    document.write("<br/>");
+
+    insertion_Sort(nums);
+    console.log("BBBBB");
+    console.log(nums);
+
+    var val = parseInt(prompt("Enter a value to count: "));
+    var retVal = count(nums, val);
+
+    document.write("<br/>");
+    document.write("Found " + retVal + " occurrences of " + val + ".");
+
+
+
+    function insertion_Sort(array) {
+        for (var i = 1; i < array.length; i++) {
+            if (array[i] < array[0]) {
+                //move current element to the first position
+                array.unshift(array.splice(i, 1)[0]);
+            } else if (array[i] > array[i - 1]) {
+                //leave current element where it is
+                continue;
+            } else {
+                //find where element should go
+                for (var j = 1; j < i; j++) {
+                    if (array[i] > array[j - 1] && array[i] < array[j]) {
+                        //move element
+                        array.splice(j, 0, array.splice(i, 1)[0]);
+                    }
+                }
+            }
+        }
+        return array;
+    }
+</script>
+
+</body>
+</html>

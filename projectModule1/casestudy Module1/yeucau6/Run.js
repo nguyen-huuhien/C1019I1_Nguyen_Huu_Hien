@@ -19,8 +19,12 @@ function displayMainMenu() {
             deleteCustomers();
             break;
         case "5" :
+            displayTotalPayOfCustomer();
+            break;
+        case "6" :
             exit();
             break;
+
     }
 
 }

@@ -13,7 +13,7 @@ function processEditChoosedCustomerToEdit() {
     }
 }
 function displayEditPropertyCustomer(index) {
-    choose = prompt(" Nhập mục cần chỉnh sửa : \n " + getCustomerInfor(index) + ((arrListCusTomers[index]).length) + ". Back");
+    choose = prompt(" Nhập mục cần chỉnh sửa : \n " + getCustomerInfor(index) +  "11 . Back");
     processEditPropertyCustomer(index);
 }
 function processEditPropertyCustomer(index) {

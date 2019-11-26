@@ -13,7 +13,7 @@ function processChooseCustomerToDelete() {
     }
 }
 function confirmDeleteCustomer(index) {
-    choose = prompt(" Bạn có muốn xóa khách hàng có CMND (" + arrListCusTomers[index][1]  + ") này chứ : \n"
+    choose = prompt(" Bạn có muốn xóa khách hàng có CMND (" + arrListCusTomers[index].getCMND()  + ") này chứ : \n"
         + "1. Có \n"
         + "2. Không \n");
     processDeleteCustomer(index);

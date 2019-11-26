@@ -1,6 +1,5 @@
-
 function addNewCustomers() {
-    var customers = [];
+
 
     var name = prompt("1. Nhập tên Customers :");
     var cmnd = prompt("2. Nhập số CMND Của Customers :");
@@ -14,17 +13,18 @@ function addNewCustomers() {
     var typeSevice = prompt("10. Nhập loại dịch vụ :");
     var typeRoom = prompt("11. Nhập loại phòng thuê :");
 
-    customers.push(name);//1
-    customers.push(cmnd);//2
-    customers.push(birthday);//3
-    customers.push(email);//4
-    customers.push(address);//5
-    customers.push(typeCustomers);//6
-    customers.push(discount);//7
-    customers.push(numBerOfCompanying);//8
-    customers.push(rentdays);//9
-    customers.push(typeSevice);//10
-    customers.push(typeRoom);//11
+    var customers = new Customers();
+    customers.setName(name);
+    customers.setCMND(cmnd);
+    customers.setBirthDay(birthday);
+    customers.setEmail(email);
+    customers.setAddress(address);
+    customers.setTypeCustomers(typeCustomers);
+    customers.setDiscount(discount);
+    customers.setNumberOfAccompanying(numBerOfCompanying);
+    customers.setRentDays(rentdays);
+    customers.settypeSevice(typeSevice);
+    customers.setTypeRoom(typeRoom);
 
     arrListCusTomers.push(customers);
 

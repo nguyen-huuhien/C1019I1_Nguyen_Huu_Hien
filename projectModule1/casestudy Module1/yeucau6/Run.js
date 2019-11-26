@@ -4,7 +4,8 @@ function displayMainMenu() {
         "2.Display Information Customer. \n" +
         "3.Edit Information Customer.\n" +
         "4.Delete Customer.\n" +
-        "5.Exit.");
+        "5.Display total pay of customer. \n "+
+        "6.Exit.");
     switch (choose) {
         case "1" :
             addNewCustomers();

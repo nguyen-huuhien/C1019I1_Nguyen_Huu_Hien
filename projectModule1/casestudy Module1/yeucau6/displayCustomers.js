@@ -7,7 +7,7 @@ function displayCustomers() {
 function getArrInfoCustomers() {
     var result = "";
     for (var i = 0; i < arrListCusTomers.length; i++) {
-        result += i + " Tên : " + arrListCusTomers[i][0] + " Số CMND : " + arrListCusTomers[i][1] + "\n " +"=============== \n";
+        result += i + " Tên : " + arrListCusTomers[i].getName() + " Số CMND : " + arrListCusTomers[i].getCMND() + "\n " +"=============== \n";
         
     }
     return result;
@@ -25,15 +25,15 @@ function displayInfomationCustomer(choose) {
     alert(getCustomerInfor(choose));
 }
 function getCustomerInfor(choose) {
-    return "0. Tên " + arrListCusTomers[choose][0] + "\n"
-    + "1. CMND " + arrListCusTomers[choose][1] + "\n"
-    + "2. Birthday " + arrListCusTomers[choose][2] + "\n"
-    + "3. CMND " + arrListCusTomers[choose][3] + "\n"
-    + "4. Address " + arrListCusTomers[choose][4] + "\n"
-    + "5. TypeCustomer " + arrListCusTomers[choose][5] + "\n"
-    + "6. Discount " + arrListCusTomers[choose][6] + "\n"
-    + "7. NumberOfCompanying " + arrListCusTomers[choose][7] + "\n"
-    + "8. Rentdays " + arrListCusTomers[choose][8] + "\n"
-    + "9. TypeSevice " + arrListCusTomers[choose][9] + "\n"
-    + "10. TypeRoom " + arrListCusTomers[choose][10] + "\n"
+    return "0. Tên : " + arrListCusTomers[choose].getName() + "\n"
+    + "1. CMND : " + arrListCusTomers[choose].getCMND() + "\n"
+    + "2. Birthday : " + arrListCusTomers[choose].getBirthday() + "\n"
+    + "3. Email : " + arrListCusTomers[choose].getEmail() + "\n"
+    + "4. Address : " + arrListCusTomers[choose].getAddress() + "\n"
+    + "5. TypeCustomer : " + arrListCusTomers[choose].getTypeCustomes() + "\n"
+    + "6. Discount : " + arrListCusTomers[choose].getDiscount() + "\n"
+    + "7. NumberOfCompanying : " + arrListCusTomers[choose].getNumberOfCompanying() + "\n"
+    + "8. Rentdays : " + arrListCusTomers[choose].getRentdays() + "\n"
+    + "9. TypeSevice : " + arrListCusTomers[choose].getTypeSevice() + "\n"
+    + "10. TypeRoom : " + arrListCusTomers[choose].getTypeRoom() + "\n"
 }

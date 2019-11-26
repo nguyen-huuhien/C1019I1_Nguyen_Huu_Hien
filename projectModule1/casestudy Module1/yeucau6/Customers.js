@@ -66,10 +66,10 @@ function Customers() {
     this.getTypeRoom = function () {
         return this.typeRoom;
     };
-    this.totalPays = function () {
-        var totalPays = this.typeSevice*this.rentdays*(1-(this.discount/100));
-        return totalPays;
+    this.getTotalPays = function () {
+       return  totalPays = this.typeSevice*this.rentdays*(1-(this.discount/100));
     }
+
 
 
 

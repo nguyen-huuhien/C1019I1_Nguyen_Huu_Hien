@@ -5,5 +5,12 @@ function displayTotalPayOfCustomer() {
     displayMainMenu();
 }
 function processChooseCustomerToShowPay() {
-    
+    switch (choose) {
+        case (arrListCusTomers.length) + "":
+            displayMainMenu();
+            break;
+        default:
+            alert("Số tiền " + arrListCusTomers[choose].getName() + " cần phải thanh toán là : " + arrListCusTomers[choose].getTotalPays() );
+
+    }
 }

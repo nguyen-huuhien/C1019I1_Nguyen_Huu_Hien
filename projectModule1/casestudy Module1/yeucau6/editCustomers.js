@@ -18,11 +18,52 @@ function displayEditPropertyCustomer(index) {
 }
 function processEditPropertyCustomer(index) {
     switch (choose) {
-        case ((arrListCusTomers[index]).length)  + "":
-            displayMainMenu();
-            break;
-        default:
-            arrListCusTomers[index][parseInt(choose)] = prompt("Nhập nội dung muốn thay đổi : ");
+        case "0":
+            arrListCusTomers[index].setName(prompt("Nhập nội dung muốn thay đổi")) ;
             displayEditPropertyCustomer(index);
+            break;
+        case "1":
+            arrListCusTomers[index].setCMND(prompt("Nhập nội dung muốn thay đổi"));
+            displayEditPropertyCustomer(index);
+            break;
+        case "2":
+            arrListCusTomers[index].setBirthDay( prompt("Nhập nội dung muốn thay đổi"));
+            displayEditPropertyCustomer(index);
+            break;
+        case "3":
+            arrListCusTomers[index].setEmail(prompt("Nhập nội dung muốn thay đổi"));
+            displayEditPropertyCustomer(index);
+            break;
+        case "4":
+            arrListCusTomers[index].setAddress(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "5":
+            arrListCusTomers[index].setTypeCustomers(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "6":
+            arrListCusTomers[index].setDiscount(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "7":
+            arrListCusTomers[index].setNumberOfAccompanying(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "8":
+            arrListCusTomers[index].setTypeRoom(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "9":
+            arrListCusTomers[index].setRentDays(prompt("Nhập nội dung muốn thay đổi"))  ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "10":
+            arrListCusTomers[index].settypeSevice(prompt("Nhập nội dung muốn thay đổi")) ;
+            displayEditPropertyCustomer(index);
+            break;
+        case "11":
+            displayMainMenu();
     }
+
 }

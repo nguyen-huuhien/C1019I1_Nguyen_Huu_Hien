@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 1</title>
+</head>
+<body>
+
+<script>
+    var arrCarName = ["Toyota", "Mercedes", "Huyndai", "Daewon"];
+    var inputValue = prompt("Nhập 1 ký tự (T,M,H,D) :");
+
+    function findCard(choose) {
+        for (var i = 0; i < arrCarName.length; i++) {
+            if (choose == "T") {
+                return arrCarName[0];
+            }
+            if (choose == "M") {
+                return arrCarName[1];
+            }
+            if (choose == "H") {
+                return arrCarName[2];
+            }
+            if (choose == "D") {
+                return arrCarName[3];
+            }
+        }
+    }
+    alert(findCard(inputValue));
+
+</script>
+</body>
+</html>

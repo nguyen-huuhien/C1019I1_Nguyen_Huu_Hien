@@ -7,26 +7,27 @@
 <body>
 
 <script>
-    function binarySearch(arraySearch, i) {
-        var mid = Math.floor(arraySearch.length / 2);
-        console.log(arraySearch[mid], i);
+    function binarySearch (arr, x) {
 
-        if (arraySearch[mid] === i) {
-            console.log('match', arraySearch[mid], i);
-            //return arr[mid];
-            alert(mid);
-            return mid;
-        } else if (arraySearch[mid] < i && arraySearch.length > 1) {
-            console.log('mid lower', arraySearch[mid], i);
-            binarySearch(arraySearch.splice(mid, Number.MAX_VALUE), i);
-        } else if (arraySearch[mid] > i && arraySearch.length > 1) {
-            console.log('mid higher', arraySearch[mid], i);
-            binarySearch(arraySearch.splice(0, mid), i);
-        } else {
-            console.log('not here', i);
-            return -1;
+        let start=0, end=arr.length-1;
+
+        // Iterate while start not meets end
+        while (start<=end){
+
+            // Find the mid index
+            let mid=Math.floor((start + end)/2);
+
+            // If element is present at mid, return True
+            if (arr[mid]===x) return mid;
+
+            // Else look in left or right half accordingly
+            else if (arr[mid] < x)
+                start = mid + 1;
+            else
+                end = mid - 1;
         }
 
+        return -1;
     }
 
     var position;
@@ -34,7 +35,6 @@
     function count(arr, data) {
         var count = 0;
         position = binarySearch(arr, data);
-        alert(position);
         if (position > -1) {
             ++count;
             for (var i = position - 1; i > 0; --i) {
@@ -97,6 +97,7 @@
         }
         return array;
     }
+    document.write(nums);
 </script>
 
 </body>

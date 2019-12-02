@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c109b0aa-e97e-43bf-9ed3-fc4e707fdf85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/bt_gamedoanso/gamesoanso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau1/cau1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectModule1/testplace/dấdawd.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectModule1/testplace/dấdawd.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/testplace/sadadasd.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projectModule1/testplace/dấdawd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\CODE GYM\codegymProject\projectModule1\b5_mang\baitap_SuDungCacHamCoSanCuaMang</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_adamVSeva/Apple.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_adamVSeva/Main.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_adamVSeva/Run.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_adamVSeva/Human.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_congtacvabongden/ElectricLamp.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_congtacvabongden/Main.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_congtacvabongden/Switch.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_congtacvabongden/Electriclamp.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b8_laptrinhhuongdoituong02/bt_congtacvabongden/Run.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/scrip.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/index.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtramaquocgianuocmy/scrip.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtramaquocgianuocmy/isUsZipCode.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/valide.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/validate.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/Validate_sdt.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/validate_sdt.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/sccrip.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/ngaythangnam.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_timkiemgiatriloonvanhonhat/timlonnhatvanhonhat.html" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/DisplayCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/AddNewCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau5/cs_yeucau5.html" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Run.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Customers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/addNewCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/deleteCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayTotalPayOfCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Main.html" />
+        <option value="$PROJECT_DIR$/projectModule1/testplace/sadadasd.html" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/editCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Run.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Main.html" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayEmployee.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Employee.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addEmployee.js" />
+        <option value="$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addNewCustomers.js" />
+        <option value="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html" />
+        <option value="$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/bt_gamedoanso/gamesoanso.html" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau1/cau1.html" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js" />
+        <option value="$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html" />
+        <option value="$PROJECT_DIR$/projectModule1/testplace/dấdawd.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1145" />
+    <option name="width" value="785" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codegymProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegymProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegymProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegymProject" type="462c0819:PsiDirectoryNode" />
+              <item name="projectModule1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegymProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegymProject" type="462c0819:PsiDirectoryNode" />
+              <item name="projectModule1" type="462c0819:PsiDirectoryNode" />
+              <item name="testplace" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projectModule1/b5_mang/baitap_SuDungCacHamCoSanCuaMang" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE GYM\codegymProject\projectModule1\b4_cautrulap\baitap_sinhbangcuuchuong" />
+      <recent name="E:\CODE GYM\codegymProject\projectModule1\b4_cautrulap\baitap_hienthisonguyetodautien" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CODE GYM\codegymProject\projectModule1\b5_mang\baitap_SuDungCacHamCoSanCuaMang" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c109b0aa-e97e-43bf-9ed3-fc4e707fdf85" name="Default Changelist" comment="" />
+      <created>1572937896176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572937896176</updated>
+      <workItem from="1572937898537" duration="9338000" />
+      <workItem from="1573007492003" duration="11260000" />
+      <workItem from="1573051015663" duration="4184000" />
+      <workItem from="1573091176001" duration="706000" />
+      <workItem from="1573104399736" duration="10224000" />
+      <workItem from="1573134578316" duration="6302000" />
+      <workItem from="1573185491118" duration="4133000" />
+      <workItem from="1573202144528" duration="5639000" />
+      <workItem from="1573221923458" duration="4775000" />
+      <workItem from="1573358746945" duration="1247000" />
+      <workItem from="1573368634288" duration="2781000" />
+      <workItem from="1573443266994" duration="1843000" />
+      <workItem from="1573456337492" duration="6223000" />
+      <workItem from="1573525849918" duration="6270000" />
+      <workItem from="1573542147625" duration="8163000" />
+      <workItem from="1573572860401" duration="1134000" />
+      <workItem from="1573619509336" duration="1760000" />
+      <workItem from="1573627129010" duration="8983000" />
+      <workItem from="1573637104982" duration="1268000" />
+      <workItem from="1573712535109" duration="6397000" />
+      <workItem from="1573793973911" duration="590000" />
+      <workItem from="1573800593278" duration="6422000" />
+      <workItem from="1573829404463" duration="3742000" />
+      <workItem from="1573874393144" duration="12799000" />
+      <workItem from="1573957193034" duration="8825000" />
+      <workItem from="1574050440803" duration="9140000" />
+      <workItem from="1574081778869" duration="1800000" />
+      <workItem from="1574102372507" duration="6929000" />
+      <workItem from="1574136599985" duration="96000" />
+      <workItem from="1574136726929" duration="167000" />
+      <workItem from="1574136924227" duration="10762000" />
+      <workItem from="1574176929586" duration="3282000" />
+      <workItem from="1574219462899" duration="9030000" />
+      <workItem from="1574302428520" duration="6531000" />
+      <workItem from="1574316494929" duration="11646000" />
+      <workItem from="1574519515881" duration="14980000" />
+      <workItem from="1574663789519" duration="7612000" />
+      <workItem from="1574689159973" duration="23755000" />
+      <workItem from="1574770295179" duration="599000" />
+      <workItem from="1574777575895" duration="14139000" />
+      <workItem from="1574926443582" duration="6765000" />
+      <workItem from="1574947872301" duration="3017000" />
+      <workItem from="1575009052401" duration="240000" />
+      <workItem from="1575028064462" duration="606000" />
+    </task>
+    <task id="LOCAL-00001" summary="moi">
+      <created>1572937982430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572937982430</updated>
+    </task>
+    <task id="LOCAL-00002" summary="moi2">
+      <created>1572938142929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572938142929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="moi2">
+      <created>1572938620048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572938620048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kiemtranamnhuan">
+      <created>1572939836740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572939836740</updated>
+    </task>
+    <task id="LOCAL-00005" summary="moi">
+      <created>1572942528842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572942528842</updated>
+    </task>
+    <task id="LOCAL-00006" summary="moi">
+      <created>1572942910161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572942910161</updated>
+    </task>
+    <task id="LOCAL-00007" summary="reCommit">
+      <created>1572945381823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572945381823</updated>
+    </task>
+    <task id="LOCAL-00008" summary="reCommit">
+      <created>1572946315109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572946315109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="reCommit">
+      <created>1572946360102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572946360102</updated>
+    </task>
+    <task id="LOCAL-00010" summary="reCommit">
+      <created>1573008369851</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573008369851</updated>
+    </task>
+    <task id="LOCAL-00011" summary="reCommit">
+      <created>1573009753993</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573009753993</updated>
+    </task>
+    <task id="LOCAL-00012" summary="reCommit">
+      <created>1573014055949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573014055949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="reCommit">
+      <created>1573014120388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573014120388</updated>
+    </task>
+    <task id="LOCAL-00014" summary="reCommit">
+      <created>1573014870442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573014870442</updated>
+    </task>
+    <task id="LOCAL-00015" summary="reCommit">
+      <created>1573029349890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573029349890</updated>
+    </task>
+    <task id="LOCAL-00016" summary="reCommit">
+      <created>1573030648520</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573030648520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="reCommit">
+      <created>1573034477901</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573034477901</updated>
+    </task>
+    <task id="LOCAL-00018" summary="reCommit">
+      <created>1573054549021</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573054549021</updated>
+    </task>
+    <task id="LOCAL-00019" summary="reCommit">
+      <created>1573143446580</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573143446580</updated>
+    </task>
+    <task id="LOCAL-00020" summary="reCommit">
+      <created>1573189011749</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573189011749</updated>
+    </task>
+    <task id="LOCAL-00021" summary="reCommit">
+      <created>1573224500573</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1573224500574</updated>
+    </task>
+    <task id="LOCAL-00022" summary="reCommit">
+      <created>1573226712939</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573226712939</updated>
+    </task>
+    <task id="LOCAL-00023" summary="reCommit">
+      <created>1573369991207</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573369991207</updated>
+    </task>
+    <task id="LOCAL-00024" summary="reCommit">
+      <created>1573457052937</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573457052937</updated>
+    </task>
+    <task id="LOCAL-00025" summary="reCommit">
+      <created>1573549992848</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573549992848</updated>
+    </task>
+    <task id="LOCAL-00026" summary="reCommit">
+      <created>1573552351558</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573552351558</updated>
+    </task>
+    <task id="LOCAL-00027" summary="reCommit">
+      <created>1573627264859</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573627264859</updated>
+    </task>
+    <task id="LOCAL-00028" summary="reCommit">
+      <created>1573805120192</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1573805120193</updated>
+    </task>
+    <task id="LOCAL-00029" summary="reCommit">
+      <created>1573833083611</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1573833083611</updated>
+    </task>
+    <task id="LOCAL-00030" summary="reCommit">
+      <created>1573881847014</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1573881847014</updated>
+    </task>
+    <task id="LOCAL-00031" summary="reCommit">
+      <created>1573883754463</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1573883754463</updated>
+    </task>
+    <task id="LOCAL-00032" summary="reCommit">
+      <created>1573887318263</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1573887318264</updated>
+    </task>
+    <task id="LOCAL-00033" summary="reCommit">
+      <created>1573978007511</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573978007511</updated>
+    </task>
+    <task id="LOCAL-00034" summary="reCommit">
+      <created>1574154849632</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574154849632</updated>
+    </task>
+    <task id="LOCAL-00035" summary="reCommit">
+      <created>1574157421132</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574157421132</updated>
+    </task>
+    <task id="LOCAL-00036" summary="reCommit">
+      <created>1574330348261</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574330348261</updated>
+    </task>
+    <task id="LOCAL-00037" summary="reCommit">
+      <created>1574663816821</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1574663816821</updated>
+    </task>
+    <task id="LOCAL-00038" summary="reCommit">
+      <created>1574701400571</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1574701400571</updated>
+    </task>
+    <task id="LOCAL-00039" summary="reCommit">
+      <created>1574750624485</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574750624485</updated>
+    </task>
+    <task id="LOCAL-00040" summary="reCommit">
+      <created>1574754681091</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1574754681091</updated>
+    </task>
+    <task id="LOCAL-00041" summary="reCommit">
+      <created>1574755954967</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1574755954967</updated>
+    </task>
+    <task id="LOCAL-00042" summary="reCommit">
+      <created>1574763476686</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1574763476686</updated>
+    </task>
+    <task id="LOCAL-00043" summary="reCommit">
+      <created>1574783191821</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1574783191821</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="266104000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.019828156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32719547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122934565" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32719547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="moi2" />
+    <MESSAGE value="kiemtranamnhuan" />
+    <MESSAGE value="moi" />
+    <MESSAGE value="reCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="reCommit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtramaquocgianuocmy/isUsZipCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b7_laptrinhhuongdoituong/bt_xaydunglopmotadienthoai/mobie.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b7_laptrinhhuongdoituong/bt_xaydunglopmotadienthoai/Mobile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/valide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/scrip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/Validate_sdt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/validate_sdt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau1/yeuCau1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau2_cautrucdieukien/yeucau2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/editCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayTotalPayOfCustomers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Employee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/editCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayTotalPayOfCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/deleteCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/addNewCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau5/cs_yeucau5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau4/yeucau4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau3/yeucau3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/sccrip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/ngaythangnam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addNewCustomers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/deleteCustomers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_timkiemgiatriloonvanhonhat/timlonnhatvanhonhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/bt_gamedoanso/gamesoanso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau1/cau1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/sadadasd.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/dấdawd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

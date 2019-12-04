@@ -19,8 +19,6 @@ public class UngDungDocSoThanhChu {
         }
         if (number >= 100 && number < 1000) {
             _100to999(number);
-        } else {
-            System.out.println("nhap sai!");
         }
 
     }

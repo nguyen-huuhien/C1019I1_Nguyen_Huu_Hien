@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 1</title>
+</head>
+<body>
+
+<script>
+    var fruit = ["Apple", "Banana", "Lemon"];
+    alert(fruit.join(" "));
+    removeFruit(prompt("Nhập Tên của 1  loại trái cây : "))  ;
+
+    function removeFruit(choose) {
+        for (var i = 0; i < fruit.length; i++) {
+            if (choose == fruit[i]) {
+                fruit.splice(i,1);
+               document.write(fruit);
+               return;
+            }
+
+        }
+    }
+</script>
+</body>
+</html>

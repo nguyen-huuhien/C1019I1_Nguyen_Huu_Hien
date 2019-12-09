@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+
+<script>
+    let Rectangle = function (chieuDai,chieuRong ) {
+
+        this.chieuDai = chieuDai;
+        this.chieuRong = chieuRong;
+
+        this.getChieuDai = function (chieuDai) {
+            return this.chieuDai;
+        };
+        this.getChieuRong = function (chieuRong) {
+            return this.chieuRong;
+        };
+        this.setChieuDai = function (chieuDai) {
+            this.chieuDai = chieuDai;
+        };
+        this.setChieuRong = function (chieuRong) {
+            this.chieuRong = chieuRong;
+        };
+        this.getDientich = function () {
+            return this.chieuDai*this.chieuRong;
+        };
+        this.getChuVi = function () {
+            return (this.chieuDai+this.chieuRong)*2;
+        };
+        let ctx = document.getElementById("myCanvas").getContext("2d");
+        ctx.fillStyle="#bcff46";
+        ctx.fillRect(0,0,chieuDai,chieuRong);
+
+
+
+    };
+
+   let hinhchunhat = new Rectangle(800,800);
+   hinhchunhat.setChieuDai(900);
+   alert(hinhchunhat.getDientich());
+   hinhchunhat.setChieuRong(900);
+   alert(hinhchunhat.getDientich());
+
+
+</script>
+
+
+</body>
+</html>

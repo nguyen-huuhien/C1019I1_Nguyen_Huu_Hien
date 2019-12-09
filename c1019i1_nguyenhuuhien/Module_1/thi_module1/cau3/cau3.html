@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var inputNumber = prompt("Nhập vào 1 số : ");
+
+    function isPrime(a) {
+        for (var i = 2; i < a; i++) {
+            if ((a % i) == 0) {
+                alert(a + " không phải là số nguyên tố!");
+                return;
+            }
+        }
+        alert(a + " Là số nguyên tố!");
+    }
+
+    isPrime(inputNumber);
+</script>
+
+</body>
+</html>

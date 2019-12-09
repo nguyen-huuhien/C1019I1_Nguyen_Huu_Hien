@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7: Giải phương trình bậc 2.</title>
+</head>
+<body>
+
+<script>
+    alert("Phương trình bậc 2 có dạng : ax^2 + bx + c = 0 ");
+    let a = parseInt(prompt("nhập giá trị a : "));
+    let b = parseInt(prompt("nhập giá trị b : "));
+    let c = parseInt(prompt("nhập giá trị c : "));
+
+    let delTa = (b^2)-4*a*c;
+    if (delTa < 0) {
+        alert(" Phương trình vô nghiệm !");
+    }else if (delTa === 0) {
+        let x1, x2;
+        x2 = x1 = -(b / (2 * a));
+        alert("phương trình có nghiệm kép x1 = x2 = " + x1);
+
+    } else {
+        x1 = (-b + Math.sqrt(delTa))/(2*a);
+        x2 = (-b - Math.sqrt(delTa))/(2*a);
+        alert("phương trình có 2 nghiệm x1 = "+x1+" ; x2 = "+x2);
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function binarySearch (arr, x) {
+
+        let start=0, end=arr.length-1;
+
+        // Iterate while start not meets end
+        while (start<=end){
+
+            // Find the mid index
+            let mid=Math.floor((start + end)/2);
+
+            // If element is present at mid, return True
+            if (arr[mid]===x) return mid;
+
+            // Else look in left or right half accordingly
+            else if (arr[mid] < x)
+                start = mid + 1;
+            else
+                end = mid - 1;
+        }
+
+        return -1;
+    }
+
+    var position;
+
+    function count(arr, data) {
+        var count = 0;
+        position = binarySearch(arr, data);
+        if (position > -1) {
+            ++count;
+            for (var i = position - 1; i > 0; --i) {
+                if (arr[i] == data) {
+                    ++count;
+                } else {
+                    break;
+                }
+            }
+
+            for (var i = position + 1; i < arr.length; ++i) {
+                if (arr[i] == data) {
+                    ++count;
+                } else {
+                    break;
+                }
+            }
+        } //end if
+        return count;
+    }
+
+    var nums = [];
+    for (var i = 0; i < 100; ++i) {
+        nums[i] = Math.floor((Math.random() * 100) + 1);
+    }
+    console.log("AAAAAAAA");
+    console.log(nums);
+
+    document.write("<br/>");
+
+    insertion_Sort(nums);
+    console.log("BBBBB");
+    console.log(nums);
+
+    var val = parseInt(prompt("Enter a value to count: "));
+    var retVal = count(nums, val);
+
+    document.write("<br/>");
+    document.write("Found " + retVal + " occurrences of " + val + ".");
+
+
+
+    function insertion_Sort(array) {
+        for (var i = 1; i < array.length; i++) {
+            if (array[i] < array[0]) {
+                //move current element to the first position
+                array.unshift(array.splice(i, 1)[0]);
+            } else if (array[i] > array[i - 1]) {
+                //leave current element where it is
+                continue;
+            } else {
+                //find where element should go
+                for (var j = 1; j < i; j++) {
+                    if (array[i] > array[j - 1] && array[i] < array[j]) {
+                        //move element
+                        array.splice(j, 0, array.splice(i, 1)[0]);
+                    }
+                }
+            }
+        }
+        return array;
+    }
+    document.write(nums);
+</script>
+
+</body>
+</html>

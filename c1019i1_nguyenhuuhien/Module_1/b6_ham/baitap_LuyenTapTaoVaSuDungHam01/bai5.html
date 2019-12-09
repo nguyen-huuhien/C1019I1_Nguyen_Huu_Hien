@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let arrA = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arrB = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    function hamTimSao() {
+        let inputA = prompt("Nhập tên sao để tìm tên chòm sao : ", "");
+        let checkArrA = arrA.indexOf(inputA);
+        if (checkArrA !== -1) {
+            alert(inputA + " In " + arrB[arrA.indexOf(inputA)] + " !");
+            return;
+        } else {
+            alert("không tìm thấy");
+        }
+    }
+    hamTimSao();
+</script>
+
+</body>
+</html>

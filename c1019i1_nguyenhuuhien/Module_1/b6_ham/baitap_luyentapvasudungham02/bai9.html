@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function timsolanxuathien() {
+        let arrNew = [];
+        let count = 0;
+        let countcheck = [];
+        let leghtOfArr = parseInt(prompt("Nhập Vào Độ Dài Của Hàm"));
+        for (let i = 0; i < leghtOfArr; i++) {
+            let valuePushed = prompt("nhập giá trị thứ " + i);
+            arrNew.push(valuePushed);
+        }
+        let valueFinded = prompt("nhập giá trị cần tìm :");
+        for (let i = 0; i < arrNew.length; i++) {
+
+            if (valueFinded == arrNew[i]) {
+                count++;
+                countcheck.push(i);
+            }
+        }
+        if (count !== 0) {
+            alert(valueFinded + " found at " + countcheck.join("-") + " số lần xuất hiện : " + count);
+        }
+        if (count == 0) {
+            alert("số lần suất hiện -1 ");
+        }
+
+    }
+
+    timsolanxuathien();
+
+
+</script>
+
+</body>
+</html>

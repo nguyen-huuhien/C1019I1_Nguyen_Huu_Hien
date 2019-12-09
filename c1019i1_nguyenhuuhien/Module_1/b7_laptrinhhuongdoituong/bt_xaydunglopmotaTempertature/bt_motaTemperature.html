@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="inputDoC" placeholder="Nhập độ c" >
+<button onclick="changeDo()">Change</button>
+<p id="ketQua"></p>
+<script>
+
+
+    let Temperature = function (doC) {
+        doC = document.getElementById("inputDoC").value;
+        this.doC = doC;
+        this.setdoC = function (doC) {
+            this.doC = doC;
+        };
+        this.getdoC = function () {
+            return this.doC;
+        };
+        this.getdoF = function () {
+            return this.doF = doF = (this.doC * 1.8) + 32;
+        };
+        this.getdoK = function () {
+            return this.doK = parseInt(this.doC) + 273.15;
+        };
+    };
+
+    let changeDo = function () {
+        doC = document.getElementById("inputDoC").value;
+        let change = new Temperature(doC);
+        alert("do f = "+ change.getdoF());
+        alert("do k = "+ change.getdoK());
+    }
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,6 +1,8 @@
 package b4_keThua.th.HeCacDoiTuongHinhHoc;
 
-public class Circle extends Shape {
+import b5_AdvancedObjectOrientedDesign.BT.TrienKhaiInterfaceResizeable.Resizeable;
+
+public class Circle extends Shape implements Resizeable {
     private double radius = 1.0;
 
     public Circle() {
@@ -37,5 +39,10 @@ public class Circle extends Shape {
                 + getRadius()
                 + ", which us a subclass of "
                 + super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        radius += (radius/100)*percent;
     }
 }

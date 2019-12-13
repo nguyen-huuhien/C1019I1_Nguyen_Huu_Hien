@@ -41,8 +41,10 @@ public class Circle extends Shape implements Resizeable {
                 + super.toString();
     }
 
+
     @Override
-    public void resize(double percent) {
-        radius += (radius/100)*percent;
+    public void resize() {
+        int random =(int)(Math.random()*100);
+        radius += (radius/100)*random;
     }
 }

@@ -19,6 +19,14 @@ public class ShapeTest {
         circle = new Circle("indigo", false, 3.5);
         System.out.println(circle);
 
+        //interface Resize circle lên 20% .
+
+        circle.resize();
+        System.out.println(circle);
+//        System.out.println((int)(Math.random()*100));
+
+
+
         System.out.println("====================");
 
         Rectangle rectangle = new Rectangle();
@@ -40,6 +48,7 @@ public class ShapeTest {
 
         square = new Square(5.8, "yellow", true);
         System.out.println(square);
+
 
 
 

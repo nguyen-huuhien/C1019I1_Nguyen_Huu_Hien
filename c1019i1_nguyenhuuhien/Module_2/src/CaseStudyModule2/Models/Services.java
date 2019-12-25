@@ -75,13 +75,6 @@ public abstract class Services {
     }
 
     public abstract String showInfo();
-//    {
-//        return "1.ID : " + id + "\n" +
-//                "2.ServicesName : " + servicesName + "\n" +
-//                "3.AreaUsed : " + areaUsed + "\n" +
-//                "4.RentalCosts : " + rentalCosts + "\n" +
-//                "5.MaximumPeoPleUsed : " + maximumPeoPleUsed + "\n" +
-//                "6.typeRents : " + typeRents + "\n" ;
-//    }
+
 
 }

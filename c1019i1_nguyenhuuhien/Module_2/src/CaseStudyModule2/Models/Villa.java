@@ -55,7 +55,7 @@ public class Villa extends Services {
 
     @Override
     public String showInfo() {
-        return "Villa \n " +
+        return "Villa : " +super.getServicesName()+"\n " +
                 "1.ID : " + super.getId() + "\n" +
                 "2.ServicesName : " + super.getServicesName() + "\n" +
                 "3.AreaUsed : " + super.getAreaUsed() + "\n" +
@@ -65,6 +65,6 @@ public class Villa extends Services {
                 "7.RoomStandard : " + roomStandard + "\n" +
                 "8.OthersConvenient : " + othersConvenient + "\n" +
                 "9.PoolArea : " + poolArea + "\n" +
-                "10.NumberOfFloors : " + numberOfFloors + "\n";
+                "10.NumberOfFloors : " + numberOfFloors;
     }
 }

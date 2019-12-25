@@ -22,7 +22,7 @@ public class Room extends Services {
 
     @Override
     public String showInfo() {
-        return "Room \n"+ "1.ID : " + super.getId() + "\n" +
+        return "Room "+super.getServicesName()+"\n"+ "1.ID : " + super.getId() + "\n" +
                 "2.ServicesName : " + super.getServicesName() + "\n" +
                 "3.AreaUsed : " + super.getAreaUsed() + "\n" +
                 "4.RentalCosts : " + super.getRentalCosts() + "\n" +

@@ -6,13 +6,13 @@ public class Customers {
     private String birthday;
     private String gender;
     private int cmndNumber;
-    private int phoneNumber;
+    private double phoneNumber;
     private String email;
     private String typeCustomer;
     private String address;
     private Services services;
 
-    public Customers(String id, String name, String birthday, String gender, int cmndNumber, int phoneNumber, String email, String typeCustomer, String address) {
+    public Customers(String id, String name, String birthday, String gender, int cmndNumber, double phoneNumber, String email, String typeCustomer, String address) {
         this.id = id;
         this.name = name;
         this.birthday = birthday;
@@ -68,10 +68,10 @@ public class Customers {
     }
 
     public int getPhoneNumber() {
-        return phoneNumber;
+        return (int) phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(double phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -122,4 +122,6 @@ public class Customers {
                 "10. service : " + getServices().getServicesName() + "\n" +
                 "-----------------\n" ;
     }
+
+
 }

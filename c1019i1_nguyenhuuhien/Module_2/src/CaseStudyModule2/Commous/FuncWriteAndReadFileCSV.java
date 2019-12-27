@@ -1,5 +1,6 @@
 package CaseStudyModule2.Commous;
 
+import CaseStudyModule2.Models.Customers;
 import CaseStudyModule2.Models.House;
 import CaseStudyModule2.Models.Room;
 import CaseStudyModule2.Models.Villa;
@@ -27,6 +28,8 @@ public class FuncWriteAndReadFileCSV {
     private static final String pathHouse = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\House.csv";
     //path file Room.csv
     private static final String pathRoom = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Room.csv";
+    //path file booking
+    private static final String pathBooking = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Booking.csv";
     //XEM LẠI ĐƯỜNG DẪN TƯƠNG ĐỐI UNDER.
     //header Villa.csv
     private static String[] headerRecordingVilla = new String[]{"id", "servicesName", "areaUsed", "rentalCosts", "maximumPeoPleUsed", "typeRents", "roomStandard", "othersConvenient", "poolArea", "numberOfFloors"};
@@ -34,9 +37,32 @@ public class FuncWriteAndReadFileCSV {
     private static String[] headerRecordingHouse = new String[]{"id", "servicesName", "areaUsed", "rentalCosts", "maximumPeoPleUsed", "typeRents", "roomStandard", "othersConvenient", "numberOfFloors"};
     //header Room.csv
     private static String[] headerRecordingRoom = new String[]{"id", "servicesName", "areaUsed", "rentalCosts", "maximumPeoPleUsed", "typeRents", "includesfreeservice"};
+    //header Booking
+    private static String[] headerBooking = new String[]{ "id, name, birthday, gender, cmndNumber,phonenumber ," +
+            " email, typeCustomer, address, idVilla, ServicesNameViila, AreaUsed, RentalCosts, MaximumPeoPleUsed, typeRents, RoomStandard, OthersConvenient, PoolArea, NumberOfFloors"};
     // the line skip readig
     private static final int NUM_OF_LINE_SKIP = 1;
 
+    //write-------------------------
+    //function write booking.
+    public static void writeBookingtofileCSV(ArrayList<Customers> listBooking) {
+        try (Writer writer = new FileWriter(pathBooking);
+             CSVWriter csvWriter = new CSVWriter(writer,
+                     CSVWriter.DEFAULT_SEPARATOR,
+                     CSVWriter.NO_QUOTE_CHARACTER,
+                     CSVWriter.DEFAULT_ESCAPE_CHARACTER,
+                     CSVWriter.DEFAULT_LINE_END)
+        ) {
+            csvWriter.writeNext(headerBooking);
+            for (Customers customer : listBooking) {
+                customer.getId();
+
+            }
+
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
     //function write Villa to file CSV
     public static void writeVillaToFileCSV(ArrayList<Villa> arrayList) {
         try (Writer writer = new FileWriter(pathVilla);
@@ -120,6 +146,8 @@ public class FuncWriteAndReadFileCSV {
 
     }
 
+
+    // read----------------------------------
     //funtion read lis vitlla form file CSV
     public static ArrayList<Villa> getVillaFromCSV() {
         Path path = Paths.get(pathVilla);
@@ -208,5 +236,103 @@ public class FuncWriteAndReadFileCSV {
         return (ArrayList<Room>) csvToBean.parse();
 
     }
+
+
+
+
+
+
+
+    //newtype-------------
+    //path file
+    private static final String COMMA_DELIMITER = ",";
+    private static final String NEW_LINE_SEPARATOR = "\n";
+    private static final String pathCustomer ="E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Customer.csv";
+
+
+     //header file csv CUSTOMER
+    private static final String FILE_HEADER_CUSTOMER = "id, name, birthday, gender, cmndNumber,phonenumber ," +
+            " email, typeCustomer, address,";
+
+    //Do-----------
+
+    //ghi filecustomer
+    public static void writeCustomerToFileCSV(ArrayList<Customers> listCustomers) {
+    FileWriter fileWriter = null;
+        try {
+            fileWriter = new FileWriter(pathCustomer);
+            fileWriter.append(FILE_HEADER_CUSTOMER);
+            fileWriter.append(NEW_LINE_SEPARATOR);
+            for (Customers customer : listCustomers) {
+                fileWriter.append(customer.getId());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getName());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getBirthday());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getGender());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append((String.valueOf(customer.getCmndNumber())));fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append((String.valueOf(customer.getPhoneNumber())));fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getEmail());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getTypeCustomer());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getAddress());
+                fileWriter.append(NEW_LINE_SEPARATOR);
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }finally {
+            try {
+                fileWriter.flush();
+                fileWriter.close();
+
+            } catch (Exception ex) {
+                System.out.println("Error  ");
+            }
+        }
+    }
+
+    //đọc file customer
+    public static ArrayList<Customers> getFileCSVToListCustomers() {
+        BufferedReader br = null;
+        ArrayList<Customers> listCustomers = new ArrayList<Customers>();
+        Path path = Paths.get(pathCustomer);
+        if (!Files.exists(path)) {
+            try {
+                Writer writer = new FileWriter(pathCustomer);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        try {
+            String line;
+            br = new BufferedReader(new FileReader(pathCustomer));
+            while ((line = br.readLine())!= null) {
+                String[] splitData = line.split(",");
+                if (splitData[0].equals("id")) {
+                    continue;
+                }
+                Customers customer = new Customers();
+                customer.setId(splitData[0]);
+                customer.setName(splitData[1]);
+                customer.setBirthday(splitData[2]);
+                customer.setGender(splitData[3]);
+                customer.setCmndNumber(Integer.parseInt(splitData[4]));
+                customer.setPhoneNumber(Double.parseDouble(splitData[5]));
+                customer.setEmail(splitData[6]);
+                customer.setTypeCustomer(splitData[7]);
+                customer.setAddress(splitData[8]);
+                listCustomers.add(customer);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }finally {
+            try {
+                br.close();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        return listCustomers;
+    }
+
+    //newtype--------------
 
 }

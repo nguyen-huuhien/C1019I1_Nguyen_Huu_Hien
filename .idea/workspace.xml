@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c109b0aa-e97e-43bf-9ed3-fc4e707fdf85" name="Default Changelist" comment="" />
+    <list default="true" id="c109b0aa-e97e-43bf-9ed3-fc4e707fdf85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Commous/FuncWriteAndReadFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Commous/FuncWriteAndReadFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Commous/SortName.java" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Commous/SortName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Booking.csv" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Booking.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Room.csv" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Room.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Models/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/c1019i1_nguyenhuuhien/Module_2/src/CaseStudyModule2/Models/Customers.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,9 +98,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1144" />
-    <option name="width" value="787" />
-    <option name="height" value="1041" />
+    <option name="x" value="1142" />
+    <option name="width" value="789" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,6 +123,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +212,8 @@
       <workItem from="1575009052401" duration="240000" />
       <workItem from="1575028064462" duration="606000" />
       <workItem from="1575274013354" duration="84000" />
+      <workItem from="1577692293986" duration="143000" />
+      <workItem from="1577816647611" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="moi">
       <created>1572937982430</created>
@@ -508,10 +520,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266188000" />
+    <option name="totallyTimeSpent" value="266929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-8" y="22" width="1691" height="929" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.01937046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -564,335 +576,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="reCommit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtramaquocgianuocmy/isUsZipCode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtramaquocgianuocmy/isUsZipCode.html" />
     <entry file="file://$PROJECT_DIR$/projectModule1/b7_laptrinhhuongdoituong/bt_xaydunglopmotadienthoai/mobie.js" />
-    <entry file="file://$PROJECT_DIR$/projectModule1/b7_laptrinhhuongdoituong/bt_xaydunglopmotadienthoai/Mobile.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/valide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/validate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/scrip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/Validate_sdt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/validate_sdt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau1/yeuCau1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau2_cautrucdieukien/yeucau2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/editCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayTotalPayOfCustomers.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayEmployee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Customers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Employee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/editCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayTotalPayOfCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/deleteCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Customers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/addNewCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau5/cs_yeucau5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau4/yeucau4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau3/yeucau3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addEmployee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/sccrip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/ngaythangnam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addNewCustomers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/deleteCustomers.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_timkiemgiatriloonvanhonhat/timlonnhatvanhonhat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/bt_gamedoanso/gamesoanso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau1/cau1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/sadadasd.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/dấdawd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projectModule1/b7_laptrinhhuongdoituong/bt_xaydunglopmotadienthoai/Mobile.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/PhatTrienGameLaiXe/PhatTrienGameLaiXe/car.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/valide.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_validate_email/validate.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/index.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/th_kiemtrakitudautiencophaicuhhoahaykhong/scrip.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/Validate_sdt.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_sdt/validate_sdt.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau1/yeuCau1.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau2_cautrucdieukien/yeucau2.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/editCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayTotalPayOfCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/displayEmployee.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Run.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Customers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Employee.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Main.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/editCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayTotalPayOfCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/displayCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/deleteCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Customers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/addNewCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6/Run.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau5/cs_yeucau5.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau4/yeucau4.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau3/yeucau3.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addEmployee.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_acount/validateAccount.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/sccrip.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_luyentapsdbieuthucchinhquy/bai1/ngaythangnam.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/addNewCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/deleteCustomers.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/casestudy Module1/yeucau6_tsk2/Main.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b9_xulychuoi/bt_validate_class/validate_class.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_demsolanxuathien/blabla.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/th_timkiemgiatriloonvanhonhat/timlonnhatvanhonhat.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/b10_giaiquyetvandevathuattoan/bt_gamedoanso/gamesoanso.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau1/cau1.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Nhanvien.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau2/cau2.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau3/cau3.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/sadadasd.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Main.html" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/thi_module1/cau4/Run.js" />
+    <entry file="file://$PROJECT_DIR$/projectModule1/testplace/dấdawd.html" />
   </component>
   <component name="masterDetails">
     <states>

@@ -119,7 +119,6 @@ public class Customers {
                 "7. Email : " + getEmail() + "\n" +
                 "8. Type customer : " + getTypeCustomer() + "\n" +
                 "9. Address : " + getAddress() + "\n" +
-                "10. service : " + getServices().getServicesName() + "\n" +
                 "-----------------\n" ;
     }
 

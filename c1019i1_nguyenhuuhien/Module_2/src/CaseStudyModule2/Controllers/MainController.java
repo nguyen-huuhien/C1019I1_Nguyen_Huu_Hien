@@ -6,10 +6,10 @@ import CaseStudyModule2.Commous.SortName;
 import CaseStudyModule2.Models.*;
 
 import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
-import java.util.UUID;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 
 public class MainController {
 
@@ -17,6 +17,7 @@ public class MainController {
     private static ArrayList<Villa> listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
     private static ArrayList<House> listHouse = FuncWriteAndReadFileCSV.getHouseFromCSV();
     private static ArrayList<Room> listRoom = FuncWriteAndReadFileCSV.getRoomFromCSV();
+    private static  ArrayList<Customers> listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv() ;
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -68,7 +69,7 @@ public class MainController {
         for (Customers customer : listCustomers) {
             System.out.println("-------------------");
             System.out.println("No. " + i);
-            System.out.println(customer);
+            System.out.println(customer.showInfo());
             System.out.println("-------------------");
             i++;
         }
@@ -76,7 +77,8 @@ public class MainController {
         Customers customer = listCustomers.get(sc.nextInt()-1);
         System.out.println("\n1. Booking Villa.\n" +
                 "2. Booking House.\n" +
-                "3. Booking Room.\n");
+                "3. Booking Room.\n" +
+                "4. Back To Menu.");
         System.out.println("Choose Services Booking ");
         int choose = sc.nextInt();
         switch (choose) {
@@ -86,7 +88,7 @@ public class MainController {
                 for (Villa villa : listVilla) {
                     System.out.println("-------------------");
                     System.out.println("No. " + i);
-                    System.out.println(villa);
+                    System.out.println(villa.showInfo());
                     System.out.println("-------------------");
                     i++;
                 }
@@ -100,7 +102,7 @@ public class MainController {
                 for (House house : listHouse) {
                     System.out.println("-------------------");
                     System.out.println("No. " + i);
-                    System.out.println(house);
+                    System.out.println(house.showInfo());
                     System.out.println("-------------------");
                     i++;
                 }
@@ -114,7 +116,7 @@ public class MainController {
                 for (Room room : listRoom) {
                     System.out.println("-------------------");
                     System.out.println("No. " + i);
-                    System.out.println(room);
+                    System.out.println(room.showInfo());
                     System.out.println("-------------------");
                     i++;
                 }
@@ -122,11 +124,19 @@ public class MainController {
                 Room room = listRoom.get(sc.nextInt()-1);
                 customer.setServices(room);
                 break;
+            case 4:
+                backMainmenu();
+                break;
             default:
                 backMainmenu();
                 break;
         }
-        ArrayList<Customers> listBooking = new ;
+        listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv() ;
+        listBooking.add(customer);
+        FuncWriteAndReadFileCSV.writeBookingtofileCSV(listBooking);
+        System.out.println("\nAdd Booking for : " + customer.getName() + " Successfully!!");
+        sc.nextLine();
+        backMainmenu();
 
 
     }
@@ -270,8 +280,11 @@ public class MainController {
                 "1. Show All Villa.\n" +
                 "2. Show All House. \n" +
                 "3. Show All Room. \n" +
-                "4. Back To Menu. \n" +
-                "5. Exit");
+                "4. Show All Name Villa Not Duplicate. \n" +
+                "5. Show All Name House Not Duplicate.\n" +
+                "6. Show All Name Room Not Duplicate. \n" +
+                "7. Back To Menu.\n" +
+                "8. Exit.");
         switch (sc.nextInt()) {
             case 1:
                 showAllVilla();
@@ -283,15 +296,25 @@ public class MainController {
                 showAllRoom();
                 break;
             case 4:
-                backMainmenu();
+                showAllNameVillaNotDuplicate();
                 break;
             case 5:
+                showAllNameHouseNotDuplicate();
+                break;
+            case 6:
+                showAllNameRoomNotDuplicate();
+                break;
+            case 7:
+                backMainmenu();
+                break;
+            case 8:
                 System.exit(0);
             default:
                 System.out.println("\nError back to menu.");
                 backMainmenu();
         }
     }
+
 
     public static void showAllVilla() {
         ArrayList<Villa> listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
@@ -304,6 +327,62 @@ public class MainController {
         backMainmenu();
 
     }
+
+    private static void showAllNameVillaNotDuplicate() {
+        String pathVilla = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Villa.csv";
+        Path path = Paths.get(pathVilla);
+        if (!Files.exists(path)) {
+            System.out.println("File Villa does not Exists! ");
+        } else {
+            TreeSet<String> listVillsTreeset = FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathVilla);
+            System.out.println("\nList Name Service Villa Not Duplicate ");
+            for (String str : listVillsTreeset) {
+                System.out.println("----------------");
+                System.out.println(str);
+                System.out.println("----------------");
+            }
+        }
+        sc.nextLine();
+        backMainmenu();
+    }
+
+    private static void showAllNameHouseNotDuplicate() {
+        String pathHouse = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\House.csv";
+        Path path = Paths.get(pathHouse);
+        if (!Files.exists(path)) {
+            System.out.println("File Home does not exists !");
+        } else {
+            TreeSet<String> listHouseTreeset  =  FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathHouse);
+            System.out.println("List name service House is not duplicate !");
+            for (String str : listHouseTreeset) {
+                System.out.println("----------------");
+                System.out.println(str);
+                System.out.println("----------------");
+            }
+        }
+        sc.nextLine();
+        backMainmenu();
+    }
+
+    private static void showAllNameRoomNotDuplicate() {
+        String pathRoom = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Room.csv";
+        Path path = Paths.get(pathRoom);
+        if (!Files.exists(path)) {
+            System.out.println("File Room does not exists !");
+        } else {
+            TreeSet<String> listRoomTreeset  =  FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathRoom);
+            System.out.println("List name service House is not duplicate !");
+            for (String str : listRoomTreeset) {
+                System.out.println("----------------");
+                System.out.println(str);
+                System.out.println("----------------");
+            }
+        }
+        sc.nextLine();
+        backMainmenu();
+    }
+
+
 
     public static void showAllHouse() {
         ArrayList<House> listHouse = FuncWriteAndReadFileCSV.getHouseFromCSV();

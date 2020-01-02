@@ -16,6 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.TreeSet;
 
 public class FuncWriteAndReadFileCSV {
     // the delimiter to use for separating entries
@@ -38,8 +39,8 @@ public class FuncWriteAndReadFileCSV {
     //header Room.csv
     private static String[] headerRecordingRoom = new String[]{"id", "servicesName", "areaUsed", "rentalCosts", "maximumPeoPleUsed", "typeRents", "includesfreeservice"};
     //header Booking
-    private static String[] headerBooking = new String[]{ "id, name, birthday, gender, cmndNumber,phonenumber ," +
-            " email, typeCustomer, address, idVilla, ServicesNameViila, AreaUsed, RentalCosts, MaximumPeoPleUsed, typeRents, RoomStandard, OthersConvenient, PoolArea, NumberOfFloors"};
+    private static String[] headerBooking = new String[]{"id, name, birthday, gender, cmndNumber,phonenumber ," +
+            " email, typeCustomer, address, idVilla, ServicesNameViila, AreaUsed, RentalCosts, MaximumPeoPleUsed, typeRents"};
     // the line skip readig
     private static final int NUM_OF_LINE_SKIP = 1;
 
@@ -55,14 +56,28 @@ public class FuncWriteAndReadFileCSV {
         ) {
             csvWriter.writeNext(headerBooking);
             for (Customers customer : listBooking) {
-                customer.getId();
-
+                csvWriter.writeNext(new String[]{
+                        customer.getId(),
+                        customer.getName(),
+                        customer.getBirthday(),
+                        customer.getGender(),
+                        String.valueOf(customer.getCmndNumber()),
+                        String.valueOf(customer.getPhoneNumber()),
+                        customer.getEmail(),
+                        customer.getTypeCustomer(),
+                        customer.getAddress(),
+                        customer.getServices().getId(),
+                        customer.getServices().getServicesName(),
+                        String.valueOf(customer.getServices().getAreaUsed()),
+                        String.valueOf(customer.getServices().getRentalCosts()),
+                        String.valueOf(customer.getServices().getMaximumPeoPleUsed()),
+                        customer.getServices().getTypeRents()});
             }
-
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
     }
+
     //function write Villa to file CSV
     public static void writeVillaToFileCSV(ArrayList<Villa> arrayList) {
         try (Writer writer = new FileWriter(pathVilla);
@@ -237,20 +252,44 @@ public class FuncWriteAndReadFileCSV {
 
     }
 
+    //function write Booking
+    public static ArrayList<Customers> getBookingFromCSv() {
+        Path path = Paths.get(pathBooking);
+        if (!Files.exists(path)) {
+            try {
+                Writer writer = new FileWriter(pathBooking);
+            } catch (IOException ex) {
+                System.out.println(ex.getMessage());
+            }
+        }
+        ColumnPositionMappingStrategy<Customers> strategy = new ColumnPositionMappingStrategy<>();
+        strategy.setType(Customers.class);
+        strategy.setColumnMapping(headerBooking);
+        CsvToBean<Customers> csvToBean = null;
+        try {
+            csvToBean = new CsvToBeanBuilder<Customers>(new FileReader(pathBooking))
+                    .withMappingStrategy(strategy)
+                    .withSeparator(DEFAULT_SEPARATOR)
+                    .withQuoteChar(DEFAULT_QUOTE)
+                    .withSkipLines(NUM_OF_LINE_SKIP)
+                    .withIgnoreLeadingWhiteSpace(true)
+                    .build();
+        } catch (FileNotFoundException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return (ArrayList<Customers>) csvToBean.parse();
 
-
-
-
+    }
 
 
     //newtype-------------
     //path file
     private static final String COMMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
-    private static final String pathCustomer ="E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Customer.csv";
+    private static final String pathCustomer = "E:\\CODE GYM\\codegymProject\\c1019i1_nguyenhuuhien\\Module_2\\src\\CaseStudyModule2\\Data\\Customer.csv";
 
 
-     //header file csv CUSTOMER
+    //header file csv CUSTOMER
     private static final String FILE_HEADER_CUSTOMER = "id, name, birthday, gender, cmndNumber,phonenumber ," +
             " email, typeCustomer, address,";
 
@@ -258,27 +297,35 @@ public class FuncWriteAndReadFileCSV {
 
     //ghi filecustomer
     public static void writeCustomerToFileCSV(ArrayList<Customers> listCustomers) {
-    FileWriter fileWriter = null;
+        FileWriter fileWriter = null;
         try {
             fileWriter = new FileWriter(pathCustomer);
             fileWriter.append(FILE_HEADER_CUSTOMER);
             fileWriter.append(NEW_LINE_SEPARATOR);
             for (Customers customer : listCustomers) {
-                fileWriter.append(customer.getId());fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(customer.getName());fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(customer.getBirthday());fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(customer.getGender());fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append((String.valueOf(customer.getCmndNumber())));fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append((String.valueOf(customer.getPhoneNumber())));fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(customer.getEmail());fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(customer.getTypeCustomer());fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getId());
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getName());
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getBirthday());
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getGender());
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append((String.valueOf(customer.getCmndNumber())));
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append((String.valueOf(customer.getPhoneNumber())));
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getEmail());
+                fileWriter.append(COMMA_DELIMITER);
+                fileWriter.append(customer.getTypeCustomer());
+                fileWriter.append(COMMA_DELIMITER);
                 fileWriter.append(customer.getAddress());
                 fileWriter.append(NEW_LINE_SEPARATOR);
             }
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             try {
                 fileWriter.flush();
                 fileWriter.close();
@@ -304,7 +351,7 @@ public class FuncWriteAndReadFileCSV {
         try {
             String line;
             br = new BufferedReader(new FileReader(pathCustomer));
-            while ((line = br.readLine())!= null) {
+            while ((line = br.readLine()) != null) {
                 String[] splitData = line.split(",");
                 if (splitData[0].equals("id")) {
                     continue;
@@ -323,7 +370,7 @@ public class FuncWriteAndReadFileCSV {
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             try {
                 br.close();
             } catch (Exception e) {
@@ -334,5 +381,35 @@ public class FuncWriteAndReadFileCSV {
     }
 
     //newtype--------------
+    //end new type
+
+    //tree set
+    public static TreeSet<String> getAllnameServiceFromCSV(String path) {
+        BufferedReader br = null;
+        TreeSet<String> result = new TreeSet<String>();
+        try {
+            String line;
+            br = new BufferedReader(new FileReader(path));
+            while (br.readLine() != null) {
+                line = br.readLine();
+                if (getNameServicesFromFile(line).equals("servicesName")) {
+                    continue;
+                }
+                result.add(getNameServicesFromFile(line));
+            }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+        return result;
+    }
+
+    public static String getNameServicesFromFile(String csvLine) {
+        String name = "";
+        if (csvLine != null) {
+            String[] splitData = csvLine.split(",");
+            name = splitData[1];
+        }
+        return name;
+    }
 
 }

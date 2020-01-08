@@ -33,12 +33,12 @@ public class TestMyArrList {
     }
 
     public static void main(String[] args) {
-        Student a = new Student(135,"Tuan");
-        Student b = new Student(125,"Dung");
-        Student c = new Student(158,"Manh");
-        Student d = new Student(551,"Lien");
-        Student e = new Student(156,"Can");
-        Student g = new Student(888,"Death");
+        Student a = new Student(135, "Tuan");
+        Student b = new Student(125, "Dung");
+        Student c = new Student(158, "Manh");
+        Student d = new Student(551, "Lien");
+        Student e = new Student(156, "Can");
+        Student g = new Student(888, "Death");
 
         MyList<Student> studentMyList = new MyList<>();
         studentMyList.add(a);
@@ -46,10 +46,10 @@ public class TestMyArrList {
         studentMyList.add(c);
         studentMyList.add(d);
         studentMyList.add(e);
-        studentMyList.add(g,2);
+        studentMyList.add(g, 2);
 
 
-        for (int i = 0; i < studentMyList.size() ; i++) {
+        for (int i = 0; i < studentMyList.size(); i++) {
             Student student = (Student) studentMyList.elements[i];
             System.out.println(student.getId());
             System.out.println(student.getName());

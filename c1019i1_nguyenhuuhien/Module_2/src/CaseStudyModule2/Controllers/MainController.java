@@ -36,7 +36,8 @@ public class MainController {
                 + "5. Add New Booking Resort. \n"
                 + "6. Show information Customer.\n"
                 + "7. Show Customers Booking 4D.\n" +
-                "8. Exit.");
+                "8. Show Employee Profile\n" +
+                "9. Exit");
         int chooseMainmenu = sc.nextInt();
 
         switch (chooseMainmenu) {
@@ -60,6 +61,8 @@ public class MainController {
             case 7:
                 showCustomersBooking4D();
             case 8:
+                fillingCabinets();
+            case 9:
                 System.exit(0);
                 break;
             default:
@@ -67,6 +70,13 @@ public class MainController {
                 backMainmenu();
         }
 
+    }
+
+    private static void fillingCabinets() {
+        FilingCabinets filingCabinets = new FilingCabinets();
+        filingCabinets.showEmployeeProfile();
+        sc.nextLine();
+        backMainmenu();
     }
 
     private static void showCustomersBooking4D() {

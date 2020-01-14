@@ -42,4 +42,8 @@ public class Employee {
     public String toString() {
         return "Name : " + getFullName() + "\tAge : " + getAge()  + "\tAddress : " + getAddress();
     }
+
+    public String showInfo() {
+        return "Name : " + getFullName() + "\tAge : " + getAge()  + "\tAddress : " + getAddress();
+    }
 }

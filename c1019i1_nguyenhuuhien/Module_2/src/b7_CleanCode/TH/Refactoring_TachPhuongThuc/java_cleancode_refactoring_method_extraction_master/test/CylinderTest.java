@@ -1,3 +1,6 @@
+package b7_CleanCode.TH.Refactoring_TachPhuongThuc.java_cleancode_refactoring_method_extraction_master.test;
+
+import b7_CleanCode.TH.Refactoring_TachPhuongThuc.java_cleancode_refactoring_method_extraction_master.src.Cylinder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

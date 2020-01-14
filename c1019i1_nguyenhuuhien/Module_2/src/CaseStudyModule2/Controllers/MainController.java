@@ -9,6 +9,7 @@ import javax.sound.midi.Soundbank;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class MainController {
@@ -17,7 +18,7 @@ public class MainController {
     private static ArrayList<Villa> listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
     private static ArrayList<House> listHouse = FuncWriteAndReadFileCSV.getHouseFromCSV();
     private static ArrayList<Room> listRoom = FuncWriteAndReadFileCSV.getRoomFromCSV();
-    private static  ArrayList<Customers> listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv() ;
+    private static ArrayList<Customers> listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv();
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -33,7 +34,9 @@ public class MainController {
                 + "3. Add New Customer. \n"
                 + "4. Show Information Customers.\n"
                 + "5. Add New Booking Resort. \n"
-                + "6. Exit.");
+                + "6. Show information Customer.\n"
+                + "7. Show Customers Booking 4D.\n" +
+                "8. Exit.");
         int chooseMainmenu = sc.nextInt();
 
         switch (chooseMainmenu) {
@@ -53,6 +56,10 @@ public class MainController {
                 addNewBookingResort();
                 break;
             case 6:
+                showInfomationCustomers();
+            case 7:
+                showCustomersBooking4D();
+            case 8:
                 System.exit(0);
                 break;
             default:
@@ -62,10 +69,69 @@ public class MainController {
 
     }
 
+    private static void showCustomersBooking4D() {
+        Customers customer1 = new Customers("Thanh Nam", 987444562);
+        Customers customer2 = new Customers("Weboo", 1234566);
+        Customers customer3 = new Customers("Hong Son", 88855541);
+        Customers customer4 = new Customers("KO MOT AI", 543573541);
+        Customers customer5 = new Customers("Thanh Nam", 987444562);
+
+        Queue<Customers> customerBooking4D = new LinkedList<>();
+        customerBooking4D.add(customer1);
+        customerBooking4D.add(customer2);
+        customerBooking4D.add(customer3);
+        customerBooking4D.add(customer4);
+        customerBooking4D.add(customer5);
+        System.out.println("List book 4D :7");
+        while (true) {
+            Customers customer = customerBooking4D.poll();
+            if (customer == null) {
+                break;
+            }
+            System.out.println(customer.showBook4D());
+
+        }
+        sc.nextLine();
+        backMainmenu();
+    }
+
+    private static void showInfomationCustomers() {
+        Map<Integer, Employee> employeeMap = new HashMap<>();
+        //crearte employee
+        Employee employee1 = new Employee("Nguyen Huu Hien", 28, "Quang Nam");
+        Employee employee2 = new Employee("Trung Son", 15, "Ha Noi");
+        Employee employee3 = new Employee("Wjbu", 16, "Japan");
+        Employee employee4 = new Employee("Onii-chan", 16, "Kyoto");
+        Employee employee5 = new Employee("Senpai", 35, "Russia");
+        Employee employee6 = new Employee("Tukak", 28, "United Kingdom");
+        Employee employee7 = new Employee("Nguyen Den Den", 66, "HuE");
+        Employee employee8 = new Employee("Nguyen", 25, "Asia");
+        Employee employee9 = new Employee("Nguyen Chung Chung", 22, "Unknown");
+        Employee employee10 = new Employee("Tran Tri Tue", 30, "Do Thai");
+        //add employe to map
+        employeeMap.put(1, employee1);
+        employeeMap.put(2, employee2);
+        employeeMap.put(3, employee3);
+        employeeMap.put(4, employee4);
+        employeeMap.put(5, employee5);
+        employeeMap.put(6, employee6);
+        employeeMap.put(7, employee7);
+        employeeMap.put(8, employee8);
+        employeeMap.put(9, employee9);
+        employeeMap.put(10, employee10);
+        //show map
+        for (Map.Entry<Integer, Employee> entry : employeeMap.entrySet()) {
+            System.out.println("=================================");
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        sc.nextLine();
+        backMainmenu();
+    }
+
     public static void addNewBookingResort() {
         listCustomers = FuncWriteAndReadFileCSV.getFileCSVToListCustomers();
         listCustomers.sort(new SortName());
-        int i=1;
+        int i = 1;
         for (Customers customer : listCustomers) {
             System.out.println("-------------------");
             System.out.println("No. " + i);
@@ -74,7 +140,7 @@ public class MainController {
             i++;
         }
         System.out.println("Choose Customer Booking : ");
-        Customers customer = listCustomers.get(sc.nextInt()-1);
+        Customers customer = listCustomers.get(sc.nextInt() - 1);
         System.out.println("\n1. Booking Villa.\n" +
                 "2. Booking House.\n" +
                 "3. Booking Room.\n" +
@@ -83,7 +149,7 @@ public class MainController {
         int choose = sc.nextInt();
         switch (choose) {
             case 1:
-                i=1;
+                i = 1;
                 listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
                 for (Villa villa : listVilla) {
                     System.out.println("-------------------");
@@ -93,11 +159,11 @@ public class MainController {
                     i++;
                 }
                 System.out.println("Choose Villa Booking ");
-                Villa villa = listVilla.get(sc.nextInt()-1);
+                Villa villa = listVilla.get(sc.nextInt() - 1);
                 customer.setServices(villa);
                 break;
             case 2:
-                i=1;
+                i = 1;
                 listHouse = FuncWriteAndReadFileCSV.getHouseFromCSV();
                 for (House house : listHouse) {
                     System.out.println("-------------------");
@@ -107,11 +173,11 @@ public class MainController {
                     i++;
                 }
                 System.out.println("Choose House Booking ");
-                House house = listHouse.get(sc.nextInt()-1);
+                House house = listHouse.get(sc.nextInt() - 1);
                 customer.setServices(house);
                 break;
             case 3:
-                i=1;
+                i = 1;
                 listRoom = FuncWriteAndReadFileCSV.getRoomFromCSV();
                 for (Room room : listRoom) {
                     System.out.println("-------------------");
@@ -121,7 +187,7 @@ public class MainController {
                     i++;
                 }
                 System.out.println("Choose Room Booking ");
-                Room room = listRoom.get(sc.nextInt()-1);
+                Room room = listRoom.get(sc.nextInt() - 1);
                 customer.setServices(room);
                 break;
             case 4:
@@ -131,7 +197,7 @@ public class MainController {
                 backMainmenu();
                 break;
         }
-        listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv() ;
+        listBooking = FuncWriteAndReadFileCSV.getBookingFromCSv();
         listBooking.add(customer);
         FuncWriteAndReadFileCSV.writeBookingtofileCSV(listBooking);
         System.out.println("\nAdd Booking for : " + customer.getName() + " Successfully!!");
@@ -170,31 +236,31 @@ public class MainController {
         System.out.println("Enter Gender of customer : ");
         customer.setGender(sc.nextLine());
         String gender = customer.getGender();
-        gender = gender.substring(0,1).toUpperCase()+gender.substring(1).toLowerCase();
+        gender = gender.substring(0, 1).toUpperCase() + gender.substring(1).toLowerCase();
         System.out.println(gender);
         while (!FuncValidation.checkGender(gender)) {
             System.out.println("Gender is not found!");
             System.out.println("Enter Gender of customer : ");
             customer.setGender(sc.nextLine());
             gender = customer.getGender();
-            gender = gender.substring(0,1).toUpperCase()+gender.substring(1).toLowerCase();
+            gender = gender.substring(0, 1).toUpperCase() + gender.substring(1).toLowerCase();
             System.out.println(gender);
         }
         //enter cmnd
         content = "Enter CMND number of customer : ";
         errMes = "CMND NUMBER IS OUT OF VALUE! PLS TRY AGAIN!";
-        customer.setCmndNumber(FuncValidation.checkValidNumberInteger(content,errMes));
+        customer.setCmndNumber(FuncValidation.checkValidNumberInteger(content, errMes));
         while (customer.getCmndNumber() < 100000000 || customer.getCmndNumber() > 999999999) {
             System.out.println(errMes);
-            customer.setCmndNumber(FuncValidation.checkValidNumberInteger(content,errMes));
+            customer.setCmndNumber(FuncValidation.checkValidNumberInteger(content, errMes));
         }
         //Enter Phone Numer
         content = "Enter the phone number of customer: ";
         errMes = "The phone number is inValid.Must have 6-10 number \nPls try again.";
-        customer.setPhoneNumber(FuncValidation.checkValidNumberDouble(content,errMes));
+        customer.setPhoneNumber(FuncValidation.checkValidNumberDouble(content, errMes));
         while (customer.getPhoneNumber() < 100000 || customer.getPhoneNumber() > 999999999) {
             System.out.println(errMes);
-            customer.setPhoneNumber(FuncValidation.checkValidNumberDouble(content,errMes));
+            customer.setPhoneNumber(FuncValidation.checkValidNumberDouble(content, errMes));
         }
         //Enter email
         System.out.println("Enter Email of customer : ");
@@ -352,7 +418,7 @@ public class MainController {
         if (!Files.exists(path)) {
             System.out.println("File Home does not exists !");
         } else {
-            TreeSet<String> listHouseTreeset  =  FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathHouse);
+            TreeSet<String> listHouseTreeset = FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathHouse);
             System.out.println("List name service House is not duplicate !");
             for (String str : listHouseTreeset) {
                 System.out.println("----------------");
@@ -370,7 +436,7 @@ public class MainController {
         if (!Files.exists(path)) {
             System.out.println("File Room does not exists !");
         } else {
-            TreeSet<String> listRoomTreeset  =  FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathRoom);
+            TreeSet<String> listRoomTreeset = FuncWriteAndReadFileCSV.getAllnameServiceFromCSV(pathRoom);
             System.out.println("List name service House is not duplicate !");
             for (String str : listRoomTreeset) {
                 System.out.println("----------------");
@@ -381,7 +447,6 @@ public class MainController {
         sc.nextLine();
         backMainmenu();
     }
-
 
 
     public static void showAllHouse() {
@@ -498,7 +563,7 @@ public class MainController {
         }
         //writefile
         //- lấy ra toàn bộ từ list
-       listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
+        listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
         //thêm vào danh sách villa đó
         listVilla.add((Villa) villa);
         //trả về lại list

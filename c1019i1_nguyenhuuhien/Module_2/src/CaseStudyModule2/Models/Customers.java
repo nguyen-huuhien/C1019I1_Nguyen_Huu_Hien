@@ -24,6 +24,11 @@ public class Customers {
         this.address = address;
     }
 
+    public Customers(String name, double phoneNumber) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
+
     public Customers() {
     }
 
@@ -120,6 +125,10 @@ public class Customers {
                 "8. Type customer : " + getTypeCustomer() + "\n" +
                 "9. Address : " + getAddress() + "\n" +
                 "-----------------\n" ;
+    }
+
+    public String showBook4D() {
+        return "Name : " + getName() +"\tPhone Number : " + getPhoneNumber();
     }
 
 

@@ -15,12 +15,13 @@
 <h2>Sandwich Condiments</h2>
 <form action="giavi" method="post">
     <tr>
-        <td><input type="checkbox" value="mam">Mắm</td>
-        <td><input type="checkbox" value="muoi">Muối</td>
-        <td><input type="checkbox" value="xidau">Xì Dầu</td>
-        <td><input type="checkbox" value="vitinh">Vị Tinh</td>
-        <td><input type="checkbox" value="thit">Thịt</td>
-        <td><input type="checkbox" value="cachua">Cà chua</td>
+        <td><input type="checkbox"name = "condiment" value="mam">Mắm</td>
+        <td><input type="checkbox"name = "condiment" value="muoi">Muối</td>
+        <td><input type="checkbox" name = "condiment"value="xidau">Xì Dầu</td>
+        <td><input type="checkbox" name = "condiment"value="vitinh">Vị Tinh</td>
+        <td><input type="checkbox" name = "condiment"value="thit">Thịt</td>
+        <td><input type="checkbox" name = "condiment"value="cachua">Cà chua</td>
+        <td><input type="submit" value="save"></td>
     </tr>
     <c:forEach items="${mess}" var="eat">
     <h3>${eat}</h3>

@@ -2,7 +2,9 @@ package com.codegym.cms.quanlykhachhang.controller;
 
 
 import com.codegym.cms.quanlykhachhang.model.Customer;
+import com.codegym.cms.quanlykhachhang.model.Province;
 import com.codegym.cms.quanlykhachhang.service.CustomerService;
+import com.codegym.cms.quanlykhachhang.service.ProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
@@ -19,6 +21,9 @@ public class CustomerController {
 
      @Autowired
     CustomerService customerService;
+     @Autowired
+     private ProvinceService provinceService;
+
     @GetMapping("/")
     public ModelAndView showCreateForm(){
         ModelAndView modelAndView = new ModelAndView("/customer/create");
@@ -29,7 +34,7 @@ public class CustomerController {
     public ModelAndView saveCustomer(@ModelAttribute("customer") Customer customer){
         customerService.save(customer);
         ModelAndView modelAndView = new ModelAndView("/customer/create");
-
+        modelAndView.addObject("customer", new Customer());
         modelAndView.addObject("message", "New customer created successfully");
         return modelAndView;
     }
@@ -79,5 +84,12 @@ public class CustomerController {
         customerService.remove(customer.getId());
         return "redirect:customerslist";
     }
+
+    @ModelAttribute("provinces")
+    public Iterable<Province> provinces() {
+        return provinceService.findAll();
+    }
+
+
 
 }

@@ -1,6 +1,7 @@
 package com.codegym.cms.quanlykhachhang.service.impl;
 
 import com.codegym.cms.quanlykhachhang.model.Customer;
+import com.codegym.cms.quanlykhachhang.model.Province;
 import com.codegym.cms.quanlykhachhang.repository.CustomerRepository;
 import com.codegym.cms.quanlykhachhang.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,11 @@ public class CustomerServiecImpl implements CustomerService{
 
     @Autowired
     private CustomerRepository customerRepository;
+
+    @Override
+    public Iterable<Customer> findAllByProvince(Province province) {
+        return customerRepository.findAllByProvince(province);
+    }
 
     @Override
     public Iterable<Customer> findAll() {

@@ -12,9 +12,22 @@ public class Blog {
     private String title;
     private String content;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
+
     public Blog() {
     }
-    public Blog(String title,String content) {
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public Blog(String title, String content) {
         this.title = title;
         this.content = content;
     }

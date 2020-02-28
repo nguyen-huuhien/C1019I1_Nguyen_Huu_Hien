@@ -1,19 +1,31 @@
 package com.orm.demo.controller;
 
 import com.orm.demo.model.Blog;
+import com.orm.demo.model.Category;
 import com.orm.demo.service.BlogService;
+import com.orm.demo.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class BlogController {
+    @Autowired
+    private CategoryService categoryService;
+    @ModelAttribute("categories")
+    public Iterable<Category> categories() {
+        return categoryService.findAll();
+    }
 
     @Autowired
     private BlogService blogService;
@@ -29,14 +41,19 @@ public class BlogController {
     public ModelAndView saveBlog(@ModelAttribute("blog") Blog blog) {
         blogService.save(blog);
         ModelAndView modelAndView = new ModelAndView("blog/create");
-//        modelAndView.addObject("blog", new Blog());
+        modelAndView.addObject("blog", new Blog());
         modelAndView.addObject("message", "New blog created successfully");
         return modelAndView;
     }
 
     @GetMapping("/listBlogs")
-    public ModelAndView listBlogs() {
-        List<Blog> blogs = blogService.findAll();
+    public ModelAndView listBlogs(@PageableDefault(value = 3 )Pageable pageable, @RequestParam("s")Optional<String> s, Model model) {
+        Page<Blog> blogs ;
+        if (s.isPresent()) {
+            blogs = blogService.findAllByTitleContaining(s.get(), PageRequest.of(pageable.getPageNumber(),5, Sort.by("title").ascending()));
+        } else {
+            blogs = blogService.findAll(PageRequest.of(pageable.getPageNumber(),5, Sort.by("title").ascending()));
+        }
         ModelAndView modelAndView = new ModelAndView("blog/list");
         modelAndView.addObject("blogs", blogs);
         return modelAndView;

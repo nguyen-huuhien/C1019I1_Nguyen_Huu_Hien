@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d44135a8-7a60-4982-b056-477f616e9f93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudyModule2_Database/CaseStudy2_DB.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudyModule2_Database/CaseStudy2_DB.mwb.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudyModule2_Database/a.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudyModule2_Database/caseStudy_DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudyModule2_Database/caseStudy_request.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/BT_EXCEL_ATrungTT/moi.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/LAYLOIHOI.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/LAYLOIHOI.mwb.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/kquan.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../TEST/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../TEST/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../TEST/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../TEST/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../TEST/TEST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/mysqlsampledatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b8_CSDL_QuanHe/mysqlsampledatabase.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\CODE GYM\codegymProject\c1019i1_nguyenhuuhien\Module_2\src\b10_TongQuanUngDungWep\TH\HienThiThoiGianHeThong\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTDYKRz5S3GXPLnXlqVwiPWkqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="HienThiThoiGianHeThong:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/HienThiThoiGianHeThong_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HienThiThoiGianHeThong:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d44135a8-7a60-4982-b056-477f616e9f93" name="Default Changelist" comment="" />
+      <created>1581061236479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581061236479</updated>
+      <workItem from="1581061242612" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="5" key="new project wizard" timestamp="1581061310092">
+      <screen x="0" y="0" width="1611" height="943" />
+    </state>
+    <state x="507" y="5" key="new project wizard/0.0.1611.943@0.0.1611.943" timestamp="1581061310092" />
+  </component>
+</project>

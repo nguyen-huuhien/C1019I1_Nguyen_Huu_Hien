@@ -1,0 +1,10 @@
+id,servicesName,areaUsed,rentalCosts,maximumPeoPleUsed,typeRents,roomStandard,othersConvenient,poolArea,numberOfFloors
+1fba2715ce024f76b31b0374df3d85b7,Fsd,54.0,5.0,5,Ds,Sds,car,54.0,1
+0b60eafefdf44137ba06ef68e255905b,Trung,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Trung,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Trung,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Thanh,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Thanh,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Thanh,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Dung,155.0,5.0,5,Fsd,Dsd,car,55.0,5
+0b60eafefdf44137ba06ef68e255905b,Tuan,155.0,5.0,5,Fsd,Dsd,car,55.0,5

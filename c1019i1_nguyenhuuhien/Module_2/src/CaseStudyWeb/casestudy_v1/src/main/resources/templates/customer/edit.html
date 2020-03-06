@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Customer</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $("#birthDay").datepicker({
+                dateFormat: "dd/MM/yyyy"
+            });
+        }); </script>
+</head>
+<body>
+<h1>Edit customer</h1>
+<p>
+    <a href="/customer/list">List Customer</a>
+</p>
+<th:block th:if="${message}">
+        <p th:text="${message}"></p>
+</th:block>
+
+<form th:action="@{/customer/update}" th:object="${customer}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Customer Name</td>
+            <td><input type="text" th:field="*{fullName}"/></td>
+        </tr>
+        <tr>
+            <td>Birth Day:</td>
+            <td><input type="date" id="datepicker" th:field="*{birthDay}"/></td>
+        </tr>
+        <tr>
+            <td>Id Card</td>
+            <td><input type="number" th:field="*{idCard}"/></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="number" th:field="*{phoneNumber}"/></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" th:field="*{email}"/></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" th:field="*{address}"/></td>
+        </tr>
+        <tr>
+            <td>TypeCustomer</td>
+            <td>
+            <select th:field = "*{typeCustomer}">
+                <option th:each="typecustomer:${typeCustomers}" th:value="${typecustomer.idTypeCustomer}" th:text="${typecustomer.nameTypeCustomer}"></option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update Customer"></td>
+        </tr>
+
+
+    </table>
+</form>
+
+</body>
+</html>

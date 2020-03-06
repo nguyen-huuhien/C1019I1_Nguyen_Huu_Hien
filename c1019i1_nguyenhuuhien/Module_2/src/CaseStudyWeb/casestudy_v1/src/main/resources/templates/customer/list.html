@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<form method="get" th:action="@{/}">
+    <button type="submit">Home Page</button>
+</form>
+<div>
+    <p>
+        <a th:href="@{/customer/create}">
+            Add new customer
+        </a>
+    </p>
+
+</div>
+
+<h3>List Customer</h3>
+<form>
+    Search by Name:
+    <input type="text" name="name">
+    <input type="submit" th:value="Search">
+</form>
+<br/>
+<table th:border="1px">
+    <thead>
+    <tr>
+        <th>STT</th>
+        <th>Full Name</th>
+        <th>BirthDay</th>
+        <th>IDCard</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Type Customer</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>View</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row,rowStat : ${customerList}">
+        <td th:text="${rowStat.index + 1}"></td>
+        <td th:text="${row.getFullName()}"></td>
+        <td th:text="${row.getBirthDay()}"></td>
+        <td th:text="${row.getIdCard()}"></td>
+        <td th:text="${row.getPhoneNumber()}"></td>
+        <td th:text="${row.getEmail()}"></td>
+        <td th:text="${row.getAddress()}"></td>
+        <td th:text="${row.typeCustomer.nameTypeCustomer}"></td>
+        <td><a th:href="@{/customer/edit/__${row.id}__}">Edit</a></td>
+        <td><a th:href="@{/customer/delete/__${row.id}__}">Delete</a></td>
+
+<!--        <td th:text="${row.getTypeCustomer().type_customer_name}"></td>-->
+<!--        <td><a th:href="@{/admin/customer/{id}/edit(id=${row.getId()})}">edit</a></td>-->
+<!--        <td><a th:href="@{/admin/customer/{id}/delete(id=${row.getId()})}">delete</a></td>-->
+<!--        <td><a th:href="@{/admin/customer/{id}/view(id=${row.getId()})}">view</a></td>-->
+    </tr>
+    </tbody>
+</table>
+<div>
+    <a th:href="@{'/customer/list'(page=${customerList.number - 1},name=${name})}"th:if="${customerList.hasPrevious()}">Back</a>
+    <span th:text="${customerList.number + 1}"></span>/<span th:text="${customerList.totalPages}"></span>
+    <a th:href="@{'/customer/list'(page=${customerList.number + 1},name=${name})}" th:if="${customerList.hasNext()}">Next</a>
+</div>
+
+</body>
+</html>

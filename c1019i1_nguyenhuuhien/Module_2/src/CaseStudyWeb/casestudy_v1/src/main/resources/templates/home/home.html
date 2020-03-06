@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <title></title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expland-md navbar-light bg-light sticky-top">
+    <img src="images/img.png" alt="" style="height: 100px; width: 300px"/>
+    <div>
+        <button type="button" href="#">Đăng Ký</button>
+        <button type="button" href="#">Đăng Nhập</button>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dịch vụ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tìm Kiếm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Review</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<table>
+    <tr>
+        <td>
+            <form method="get" th:action="@{/customer/create}">
+                <button type="submit">Add New Customer</button>
+            </form>
+
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <button type="button" class="btn btn-info"><a href="#"></a>Add New service</button>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <button type="button" class="btn btn-info"><a href="#"></a>Add New Contract</button>
+        </td>
+
+    </tr>
+
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="418be7f7-c4ce-4cbd-a85c-6693ee8f307c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Module_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/DieuKienVaVongLap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/d.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/doituong.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/fundamentals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/ham.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b4_typeScript/TH/BienVaKieuDuLieu/Bienvakieudulieu/mang.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/TEST/TEST_caseStudy/mainLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/TEST/TEST_caseStudy/mainLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/TEST/testCS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/TEST/testCS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/TEST/testCS/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/TEST/testCS/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_2/src/thi/thi_md2/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/main/java/com/codegym/demospringboot/DemospringbootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/main/java/com/codegym/demospringboot/controller/helloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/main/resources/static/hello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/SPRINGBOOT/demospringboot/src/test/java/com/codegym/demospringboot/DemospringbootApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\CODE GYM\codegymProject\c1019i1_nguyenhuuhien\Module_3\b5_angular_overview\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZHXNuW1Jm1Lz3KnWaYgTKBgRHN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/CODEGYM/ProjectModule3/b5_AngularOverview/TH" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="418be7f7-c4ce-4cbd-a85c-6693ee8f307c" name="Default Changelist" comment="" />
+      <created>1584496957442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584496957442</updated>
+      <workItem from="1584496960350" duration="2030000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="975" y="231" key="FileChooserDialogImpl" timestamp="1584500227989">
+      <screen x="0" y="0" width="1611" height="943" />
+    </state>
+    <state x="975" y="231" key="FileChooserDialogImpl/0.0.1611.943@0.0.1611.943" timestamp="1584500227989" />
+  </component>
+</project>

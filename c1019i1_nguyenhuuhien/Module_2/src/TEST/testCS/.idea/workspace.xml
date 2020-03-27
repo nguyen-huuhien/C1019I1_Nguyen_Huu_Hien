@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c727c2-1da2-459a-8324-5e095a6daa90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../b21_security/TH/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../b21_security/TH/.idea/TH.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../b21_security/TH/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../b21_security/TH/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../b21_security/TH/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST_caseStudy/mainLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TEST_caseStudy/mainLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi/thi_md2/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/main/java/com/codegym/demospringboot/DemospringbootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/main/java/com/codegym/demospringboot/controller/helloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/main/resources/static/hello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TEST/SPRINGBOOT/demospringboot/src/test/java/com/codegym/demospringboot/DemospringbootApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -48,9 +68,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="940" />
-    <option name="height" value="1090" />
+    <option name="x" value="-13" />
+    <option name="width" value="944" />
+    <option name="height" value="1094" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,7 +103,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -114,16 +134,19 @@
       <updated>1583118161457</updated>
       <workItem from="1583118163859" duration="662000" />
       <workItem from="1583489346017" duration="37000" />
+      <workItem from="1584026818829" duration="645000" />
+      <workItem from="1584429674132" duration="35000" />
+      <workItem from="1584429770882" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="699000" />
+    <option name="totallyTimeSpent" value="1641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="820" height="951" extended-state="0" />
+    <frame x="-11" y="0" width="823" height="954" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23047376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22959183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -148,8 +171,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>

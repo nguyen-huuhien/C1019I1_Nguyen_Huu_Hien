@@ -1,0 +1,42 @@
+#header{
+    height: 200px;
+    width: 100%;
+  
+}
+div>div>img{
+    height: 200px;
+    width: 200px;
+}
+#header-left{
+float: left;
+}
+#header-right{
+    margin-right: 0px;
+   float: right;
+  
+   border-bottom: 3px solid green;
+  
+
+}
+#Profile{
+
+    clear: both;
+  
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid green;
+   
+}
+#exp-left{
+    width: 30%;
+    float: left;
+}
+#exp-right{
+    width:60%;
+    margin-left: 10%;
+float: left;
+}
+#exp{
+    border: 1px solid lawngreen;
+    
+}

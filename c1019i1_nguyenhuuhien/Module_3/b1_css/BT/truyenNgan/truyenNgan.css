@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+
+}
+#link{
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+div>a>img{
+   height: 100px;
+   width:300px;
+}
+.input{
+    float: right;
+    margin-top: 50px;
+    height: 45px;
+    width: 250px;
+
+}
+.a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+#leftBar{
+    height: 600px;
+    width: 20%;
+    background-color:gray;
+    float: left;
+}
+#mainbar{
+    height: 600px;
+    width: 80%;
+    background-color: mediumpurple;
+    float: left;
+
+}
+div > ul >li{
+    font-size: 19px;
+    color: honeydew;
+}
+.elementInMainbar{
+    margin-left: 5%;
+    float: left;
+}
+

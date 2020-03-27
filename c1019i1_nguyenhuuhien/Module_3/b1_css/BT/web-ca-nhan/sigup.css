@@ -1,0 +1,9 @@
+.left{
+ background-color: white;
+}
+.right{
+    background-color: rgb(31, 31, 204);
+}
+.input{
+    border-bottom: 1px solid blue;
+}

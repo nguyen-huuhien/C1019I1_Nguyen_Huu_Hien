@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./sigup.css">
+   <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+        $(function () {
+             $('#show').click(function () {
+                 $('#checktitle').text("Title: " + $('#title').val()) ;
+                 $('#checkname').text("Full Name: " + $('#firstname').val()+" "+ $('#lastname').val()) ;
+                 $('#checkposition').text("Position: " + $('#position').val()) ;
+                 $('#checkconpany').text("Company: " + $('#company').val()) ;
+                 $('#checkbussiness').text("Bussiness Arena: " + $('#checkbussiness').val()) ;
+                 $('#checkemployee').text("Employee: " + $('#employee').val()) ;
+                 $('#checkstreet').text("Street Nr: " + $('#street').val()) ;
+                 $('#checkadditional').text("Additional: " + $('#additional').val()) ;
+                 $('#checkplace').text("Place: " + $('#place').val()) ;
+                 $('#checkcode').text("Code: " + $('#code').val()) ;
+                 $('#checkphonenumber').text("Phone Number: " + $('#phonenumber').val()) ;
+                 $('#checkemail').text("Your Email: " + $('#email').val()) ;
+                 $( "#dialog" ).dialog()
+             })
+        })
+        $('.ajaxbutton').click(function() {
+
+            $('.text').text('loading . . .');
+
+            $.ajax({
+                type:"GET",
+                url:"https://api.meetup.com/2/cities",
+                success: function(data) {
+                    $('.text').text(JSON.stringify(data));
+                },
+                dataType: 'jsonp',
+            });
+
+        });
+          $(document).ready(function () {
+              $('.ajaxbutton').click(function () {
+                  $.ajax({type:"GET", url: "https://api.meetup.com/2/cities", success: function(result){
+                          $(".text").text(JSON.stringify(result));
+                      },
+                      dataType: 'jsonp',
+                  });
+                  })
+          })
+
+    </script>
+    </head>
+  <body>
+
+    <section class="" style="width: 70%;margin-left: 15%; margin-top: 200px;">
+        <div class="container-fluid" >
+          
+            <div class="row">
+            
+                <div class="col-sm-6 left" >
+                    <h3 style="color: blue;">General Infomation</h3>
+                    <form method="get" action="#">
+                        <input id="title" class="form-control" type="text" placeholder="Title">
+                      <div class="row row-name">
+                          <div class="col-md-6">
+                            <input id="firstname" class="form-control" type="text" placeholder="Fist name">
+                          </div>
+                          <div class="col-md-6">
+                            <input id="lastname" class="form-control" type="text" placeholder="Last name">
+                          </div>
+                      </div>
+                      <select class="form-control" id="position" style="width: 100%" >
+                        <option value="Position">Position</option>
+                    </select>
+                    <input id="company" class="form-control" type="text" placeholder="Company">
+                    <div class="row row-lasted">
+                        <div class="col-md-6">
+                          <input id="bussinessarena" class="form-control" type="text" placeholder="BussinessArena">
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control" id="employee" style="text-align: right">
+                                <option  value="Employee">Employee</option>
+                                 </select>
+                        </div>
+                    </div>
+                    </form>  
+                </div>
+                <div class="col-sm-6 right" >
+                    <h3 style="color: white;">Contact Details</h3>
+                    <form method="get" action="#">
+                        <input  id="street"  class="form-control"  type="text" placeholder="Street + Nr">
+                        <input id="additional" class="form-control"  type="text" placeholder="Additional Infomation">
+
+                      <div class="row row-name">
+                          <div class="col-md-6">
+                            <input id="zipcode" class="form-control" type="text" placeholder="Zip code">
+                          </div>
+                          <div class="col-md-6">
+                            <input  id="place" class="form-control" type="text" placeholder="Place">
+                          </div>
+                      </div>
+                      <input id="coundtry" class="form-control"  type="text" placeholder="Country">
+                      <div class="row row-name">
+                        <div class="col-md-6">
+                          <input id="code" class="form-control" type="text" placeholder="Code+">
+                        </div>
+                        <div class="col-md-6">
+                          <input  id="phonenumber" class="form-control" type="text" placeholder="Phone Number">
+                        </div>
+                        </div>
+                        <input id="email" class="form-control" type="text" placeholder="Your Email">
+                        <br>
+                        <input style="margin-bottom: -1em" type="radio" id="f-option" ><p style="color: white;margin-top: -2.5em;margin-left: 2em" for="f-option">I do Accept th <a href="">Teams and Coditions</a> of yoursite</p>
+                        <button type="button" id="show" class="btn btn-primary">Register Badge</button>
+                       <button type="button" class="ajaxbutton">Click me!</button>
+
+                    </form>  
+
+                </div>
+              </div>
+              <div   id="dialog" style="display: none">
+                <pre id="checktitle"></pre>
+                <pre id="checkname"></pre>
+                <pre id="checkposition"></pre>
+                <pre id="checkconpany"></pre>
+                <pre id="checkbussiness"></pre>
+                <pre id="checkemployee"></pre>
+                <pre id="checkstreet"></pre>
+                <pre id="checkadditional"></pre>
+                <pre id="checkplace"></pre>
+                <pre id="checkcode"></pre>
+                <pre id="checkphonenumber"></pre>
+                <pre id="checkemail"></pre>
+              </div>
+              <div style="color: black" class="text"></div>
+             
+        </div>
+        
+
+       
+    </section>
+    
+
+
+  </body>
+</html>

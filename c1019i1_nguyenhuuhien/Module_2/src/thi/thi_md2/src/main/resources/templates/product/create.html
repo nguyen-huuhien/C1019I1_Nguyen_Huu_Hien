@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Create Customer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $("#birthDay").datepicker({
+                dateFormat: "dd/MM/yyyy"
+            });
+        }); </script>
+
 </head>
 <body>
-$END$
+<p>
+    <a th:href="@{/products}">List Products</a>
+</p>
+<th:block th:if="${status}">
+    <p th:text="${status}"></p>
+</th:block>
+
+<div th:id="form">
+    <form th:action="@{/product/create}" th:object="${product}" method="post">
+        <div>
+            <label>Tên hàng</label>
+            <input type="text" th:field="*{name}">
+            <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+        </div>
+        <div>
+            <label>Loại hàng</label>
+            <select style="margin-left: 2em"  th:field = "*{typeProduct}">
+                <option value="Điện Thoại">Điện Thoại</option>
+                <option value="TiVi">TiVi</option>
+                <option value="Tủ Lạnh">Tủ Lạnh</option>
+                <option value="Điều Hòa">Điều Hòa</option>
+                <option value="Máy Tính">Máy Tính</option>
+            </select><br>
+        </div>
+
+        <div>
+            <label>Giá</label>
+            <input type="number" th:field="*{price}">
+            <td th:if="${#fields.hasErrors('price')}" th:errors="*{price}">Name Error</td>
+
+        </div>
+        <div>
+            <label>Số Lượng</label>
+            <input type="text" th:field="*{number}">
+            <td th:if="${#fields.hasErrors('number')}" th:errors="*{number}">Name Error</td>
+
+        </div>
+        <div>
+            <label>Mô tả</label>
+            <input type="text" th:field="*{status}">
+        </div>
+        <input type="submit" th:value="Save">
+    </form>
+</div>
+
 </body>
 </html>

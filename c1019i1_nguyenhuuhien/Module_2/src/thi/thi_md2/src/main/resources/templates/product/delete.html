@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Xóa mặt hàng</title>
 </head>
 <body>
-$END$
+<h1>Xóa mặt hàng</h1>
+
+
+
+<form th:action="@{/product/delete}" th:object="${product}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Bạn có chắc chắc muốn xóa mặt hàng</td>
+            <td th:text="*{name}"></td>
+            <td>không?</td>
+        </tr>
+
+
+        <tr>
+            <td><a href="/products">Thoát</a></td>
+            <td><input type="submit" value="Xóa mặt hàng"></td>
+        </tr>
+    </table>
+
+</form>
 </body>
 </html>

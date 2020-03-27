@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+#headLogo{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(10, 93, 93);
+    float: left;
+
+}
+#headRight{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(45, 143, 143);
+    float: left;
+}
+#headLink{
+    height: 50px;
+    width: 100%;
+    background-color: dimgrey;
+    clear: both;
+
+}
+#left{
+    height: 500px;
+    width: 20%;
+    background-color: rgb(31, 110, 29);
+    float: left;
+
+}
+#content{
+    height: 500px;
+    width: 60%;
+    background-color: rgb(20, 67, 143);
+    float: left;
+    
+}
+#right{
+    height: 500px;
+    width: 20%;
+    background-color: rgb(102, 23, 63);
+    float: left;
+    float: right;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color: lightblue;
+    clear: both;
+}

@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-$END$
+<h1>Danh Sách mặt hàng</h1>
+<!--<div>-->
+<!--    <p>-->
+<!--        <a th:href="@{/product/create}">-->
+<!--            Add new product-->
+<!--        </a>-->
+<!--    </p>-->
+
+<!--</div>-->
+
+<!--<th:block th:if="${message}">-->
+<!--    <p th:text="${message}"></p>-->
+<!--</th:block>-->
+
+<h3>List Customer</h3>
+<form>
+    Nhập tên hàng:
+    <input name="name" type="text"/>
+    <input type="submit" value="Search"/>
+    <a th:href="@{/product/create}">
+        Thêm mặt hàng
+    </a>
+</form><br/>
+<table class="table" >
+    <thead>
+    <tr class="info">
+        <th>#</th>
+        <th>Tên Hàng</th>
+        <th>Loại Hàng </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row,rowStat : ${productList}">
+        <td th:text="${rowStat.index + 1}"></td>
+        <td th:text="${row.getName()}"></td>
+        <td th:text="${row.getTypeProduct()}"></td>
+        <td><a th:href="@{/product/edit/__${row.id}__}">Chỉnh Sửa</a></td>
+        <td><a th:href="@{/product/delete/__${row.id}__}">Xóa</a></td>
+
+        <!--        <td th:text="${row.getTypeCustomer().type_customer_name}"></td>-->
+        <!--        <td><a th:href="@{/admin/customer/{id}/edit(id=${row.getId()})}">edit</a></td>-->
+        <!--        <td><a th:href="@{/admin/customer/{id}/delete(id=${row.getId()})}">delete</a></td>-->
+        <!--        <td><a th:href="@{/admin/customer/{id}/view(id=${row.getId()})}">view</a></td>-->
+    </tr>
+    </tbody>
+</table>
+<div>
+    <a th:href="@{'products'(page=${productList.number - 1},name=${name})}"th:if="${productList.hasPrevious()}">Back</a>
+    <span th:text="${productList.number + 1}"></span>/<span th:text="${productList.totalPages}"></span>
+    <a th:href="@{'products'(page=${productList.number + 1},name=${name})}" th:if="${productList.hasNext()}">Next</a>
+</div>
+
 </body>
 </html>

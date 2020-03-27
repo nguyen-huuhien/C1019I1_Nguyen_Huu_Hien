@@ -1,0 +1,14 @@
+.navbar{
+    background-color: coral;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+div>a{
+    font-size: 20px;
+    color: darkslategrey;
+ 
+}

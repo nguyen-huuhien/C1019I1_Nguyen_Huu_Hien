@@ -1,18 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+// import { AutofocusModule } from 'angular-autofocus-fix';
+
 
 import { AppComponent } from './app.component';
-import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
-import { CountdownTimerGetSetComponent } from './countdown-timer-get-set/countdown-timer-get-set.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountdownTimerComponent,
-    CountdownTimerGetSetComponent,
+    TodoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    // AutofocusModule
   ],
   providers: [],
   bootstrap: [AppComponent]

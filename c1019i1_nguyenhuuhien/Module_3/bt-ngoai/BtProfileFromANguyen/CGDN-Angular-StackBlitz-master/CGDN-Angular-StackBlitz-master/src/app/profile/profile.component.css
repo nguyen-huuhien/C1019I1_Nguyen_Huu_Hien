@@ -1,0 +1,63 @@
+.container-fluid{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+
+}
+.edit{
+    padding-right: 2.5%;
+}
+img{
+    margin-left: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 12px;
+}
+.l1{
+    margin-top: 15px;
+}
+#txt1{
+    padding-right: 5px;
+}
+#txt2{
+    padding-left: 40px;
+}
+
+.option{
+    margin-top: 5px;
+}
+.border-bottom, .line1-3,.line2{
+    margin-top: 10px;
+    border-bottom: 1px solid #d2cfcf;
+}
+.edit{
+    float: right;
+}
+
+.inf{
+    margin-bottom: 15px;
+}
+.inline{
+    display: inline-block;
+}
+.il{
+    margin-left: 25px;
+}
+.tt{
+    width: 100px;
+}
+.he{
+    margin-left: 100px;
+}
+.l1, .line2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+.new{
+    text-align: center;
+}

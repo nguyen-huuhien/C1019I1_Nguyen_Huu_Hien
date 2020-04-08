@@ -1,0 +1,83 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Hữu Hiền",
+      "position": "Nhân Viên",
+      "academicLevel": "Đại học",
+      "part": "Bếp",
+      "dateOfBirth": "30/10/1998",
+      "indentityNumber": "206141242",
+      "salary": "3",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658",
+      "address": "Điện Bàn - Quảng Nam"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Hữu Hiền",
+      "position": "Nhân Viên",
+      "academicLevel": "Đại học",
+      "part": "Bếp",
+      "dateOfBirth": "30/10/1998",
+      "indentityNumber": "206141242",
+      "salary": "3",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658",
+      "address": "Điện Bàn - Quảng Nam"
+    },
+    {
+      "id": 3,
+      "fullName": "Nguyễn Hữu Hiền",
+      "position": "Nhân Viên",
+      "academicLevel": "Đại học",
+      "part": "Bếp",
+      "dateOfBirth": "30/10/1998",
+      "indentityNumber": "206141242",
+      "salary": "3",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658",
+      "address": "Điện Bàn - Quảng Nam"
+    },
+    {
+      "fullName": "Nguyễn Hữu Hiền new",
+      "position": "Nhân Viên",
+      "academicLevel": "Đại học",
+      "part": "Bếp",
+      "dateOfBirth": "30/10/1998",
+      "indentityNumber": "206141242",
+      "salary": "3",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658",
+      "address": "Điện Bàn - Quảng Nam",
+      "id": 4
+    },
+    {
+      "fullName": "Nguyễn Hữu Hiền 5",
+      "position": "Nhân Viên",
+      "academicLevel": "Đại học",
+      "part": "Bếp",
+      "dateOfBirth": "30/10/1998",
+      "indentityNumber": "206141242",
+      "salary": "3",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658",
+      "address": "Điện Bàn - Quảng Nam",
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "fullname": "ng hd osie",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658"
+    },
+    {
+      "id": 1,
+      "fullname": "ng hd osie",
+      "email": "huuhien3099@gmail.com",
+      "phoneNumber": "090654658"
+    }
+  ]
+}

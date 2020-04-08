@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b5_angular_overview/TH/ChangeFontsize/changeform/angular-change-font-size" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fromDisk_C/B7AngularForm/TH/todo-angular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fromDisk_C/b5_AngularOverview/TH/changeform/angular-change-font-size" vcs="Git" />
   </component>
 </project>
